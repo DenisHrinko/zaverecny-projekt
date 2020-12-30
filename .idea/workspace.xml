@@ -16,11 +16,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="Vytvorenie Kristianovej vetvy">
+    <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="Vytvorenie domovskej stranky a menu">
+      <change afterPath="$PROJECT_DIR$/css/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/menu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kiko.html" beforeDir="false" afterPath="$PROJECT_DIR$/kiko.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +34,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -51,12 +52,15 @@
     <option name="projectConfigVersion" value="2" />
   </component>
   <component name="ProjectId" id="1jjrqSgud7f8PSHXnRIBaLUUHmS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -106,7 +110,7 @@
       <workItem from="1607458721119" duration="3881000" />
       <workItem from="1607464412349" duration="665000" />
       <workItem from="1607524079650" duration="41000" />
-      <workItem from="1609171612239" duration="6473000" />
+      <workItem from="1609171612239" duration="9589000" />
     </task>
     <task id="LOCAL-00001" summary="Vytvorenie projektu">
       <created>1607460269868</created>
@@ -129,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609171792733</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Vytvorenie domovskej stranky a menu">
+      <created>1609274611052</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609274611052</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,9 +171,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Vytvorenie projektu" />
     <MESSAGE value="Nacitanie bootstrap kniznice" />
     <MESSAGE value="Vytvorenie Kristianovej vetvy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vytvorenie Kristianovej vetvy" />
+    <MESSAGE value="Vytvorenie domovskej stranky a menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vytvorenie domovskej stranky a menu" />
   </component>
 </project>
