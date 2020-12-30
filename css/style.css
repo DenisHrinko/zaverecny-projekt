@@ -24,47 +24,6 @@ h1{
     font-size: 5rem;
 }
 
-nav{
-    position: absolute;
-    right: 0;
-}
-
-ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-ul li{
-    float: left;
-    width: 200px;
-    height: 40px;
-    opacity: .8;
-    line-height: 40px;
-    text-align: center;
-    font-size: 20px;
-}
-
-ul li a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    display: block;
-    transition: .5s ease;
-}
-
-ul li a:hover, ul li:hover{
-    background-color: blanchedalmond;
-    color: black;
-}
-
-ul li ul li{
-    display: none;
-}
-ul li:hover ul li{
-    display: block;
-}
-
 .line
 {
     border-bottom: 1px solid white;
@@ -106,14 +65,6 @@ footer{
     }
     .kalendar{
         left: 10%;
-    }
-}
-
-
-
-@media only screen and (max-width: 616px) {
-    ul li{
-        width: 100px;
     }
 }
 
