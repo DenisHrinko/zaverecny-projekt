@@ -1,0 +1,205 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"sk\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Domov</title>\r\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css\"\r\n          integrity=\"sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2\" crossorigin=\"anonymous\">\r\n    <link rel=\"stylesheet\" href=\"css/style.css\">\r\n    <link rel=\"stylesheet\" href=\"css/menu.css\">\r\n</head>\r\n\r\n<body>\r\n<div class=\"overlay\">\r\n    <header>\r\n        <h1>Domovská <br> stránka</h1>\r\n        <nav id=\"menu\">\r\n\r\n        </nav>\r\n    </header>\r\n    <div class=\"line\"></div>\r\n\r\n    <section class=\"kalendar\">\r\n        <input name=\"meno\" id=\"meno\">\r\n        <label for=\"meno\">Zadaj meno</label>\r\n        <input name=\"datum\" id=\"datum\">\r\n        <label for=\"datum\">Dátum</label>\r\n    </section>\r\n\r\n    <footer>\r\n        <p>Hobovci Copyright ©2020 | All Rights Reserved</p>\r\n    </footer>\r\n</div>\r\n\r\n<script src=\"https://code.jquery.com/jquery-3.5.0.js\"></script>\r\n<script src=\"js/menu.js\"></script>\r\n<script src=\"js/script.js\"></script>\r\n</body>\r\n\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- index.html	(revision c6490bcece79f6f9fc91e665b9fb107da0a8a66f)
++++ index.html	(date 1609507627974)
+@@ -1,41 +1,31 @@
+ <!DOCTYPE html>
+ <html lang="sk">
+-
+ <head>
+     <meta charset="UTF-8">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>Domov</title>
+-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+-          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
++    <title>Example1</title>
++    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/style.css">
+-    <link rel="stylesheet" href="css/menu.css">
+ </head>
++<body class="container">
+ 
+-<body>
+-<div class="overlay">
+-    <header>
+-        <h1>Domovská <br> stránka</h1>
+-        <nav id="menu">
+-
+-        </nav>
+-    </header>
+-    <div class="line"></div>
++<nav class="navbar navbar-expand-md">
++    <div class="collapse navbar-collapse"></div>
++        <ul class="navbar-nav mr-auto">
++            <li class="nav-item active"><a class="nav-link" href="index.html">Domov</a></li>
++            <li class="nav-item"><a class="nav-link" href="#">Hry</a></li>
++        </ul>
++</nav>
+ 
+-    <section class="kalendar">
+-        <input name="meno" id="meno">
+-        <label for="meno">Zadaj meno</label>
+-        <input name="datum" id="datum">
+-        <label for="datum">Dátum</label>
+-    </section>
+ 
+-    <footer>
+-        <p>Hobovci Copyright ©2020 | All Rights Reserved</p>
+-    </footer>
+-</div>
++
++<footer class="modal-footer">
++    <p>Hobovci Copyright ©2020 | All Rights Reserved</p>
++</footer>
+ 
+-<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+-<script src="js/menu.js"></script>
++<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
++<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
++<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
++<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.1.3/pixi.min.js"></script>
+ <script src="js/script.js"></script>
+ </body>
+-
+ </html>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"BRANCH:master\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </select>\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"2c14619b-2fb5-4b4e-8517-8a95cff30040\" name=\"Default Changelist\" comment=\"Vytvorenie projektu\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/zadanie.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/zadanie.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/css/style.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/css/style.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"CSS File\" />\r\n        <option value=\"JavaScript File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitToolBoxStore\">\r\n    <option name=\"projectConfigVersion\" value=\"2\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1jjrqSgud7f8PSHXnRIBaLUUHmS\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/../Sp\" />\r\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"terminal\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Hrinko\\Desktop\\Zadanie7\" />\r\n      <recent name=\"C:\\Users\\Hrinko\\Desktop\\Zadanie7\\img\" />\r\n      <recent name=\"C:\\Users\\Hrinko\\Desktop\\Zadanie7\\sdsad\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"2c14619b-2fb5-4b4e-8517-8a95cff30040\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1604328533098</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1604328533098</updated>\r\n      <workItem from=\"1604328544268\" duration=\"16647000\" />\r\n      <workItem from=\"1604425738977\" duration=\"81000\" />\r\n      <workItem from=\"1604425835577\" duration=\"689000\" />\r\n      <workItem from=\"1604503762790\" duration=\"7144000\" />\r\n      <workItem from=\"1605027320304\" duration=\"32000\" />\r\n      <workItem from=\"1605888892650\" duration=\"25000\" />\r\n      <workItem from=\"1605888936801\" duration=\"4869000\" />\r\n      <workItem from=\"1605894435443\" duration=\"4591000\" />\r\n      <workItem from=\"1605899754481\" duration=\"231000\" />\r\n      <workItem from=\"1605900005649\" duration=\"6831000\" />\r\n      <workItem from=\"1606782982492\" duration=\"7144000\" />\r\n      <workItem from=\"1606845124513\" duration=\"703000\" />\r\n      <workItem from=\"1606930602470\" duration=\"44000\" />\r\n      <workItem from=\"1606938072394\" duration=\"19000\" />\r\n      <workItem from=\"1606938172584\" duration=\"10973000\" />\r\n      <workItem from=\"1607458721119\" duration=\"3881000\" />\r\n      <workItem from=\"1607464412349\" duration=\"665000\" />\r\n      <workItem from=\"1607524079650\" duration=\"41000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Vytvorenie projektu\">\r\n      <created>1607460269868</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1607460269868</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Nacitanie bootstrap kniznice\">\r\n      <created>1607464649129</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1607464649129</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Vytvorenie projektu\" />\r\n    <MESSAGE value=\"Nacitanie bootstrap kniznice\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Nacitanie bootstrap kniznice\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision c6490bcece79f6f9fc91e665b9fb107da0a8a66f)
++++ .idea/workspace.xml	(date 1609507961552)
+@@ -11,21 +11,22 @@
+       <path>
+         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="BRANCH:filip" type="e8cecc67:BranchNodeDescriptor" />
+       </path>
+     </select>
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="Vytvorenie projektu">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/zadanie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/zadanie.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="ComposerSettings">
++    <execution />
+   </component>
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+@@ -37,13 +38,20 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="main" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="GitToolBoxStore">
+     <option name="projectConfigVersion" value="2" />
+   </component>
+   <component name="ProjectId" id="1jjrqSgud7f8PSHXnRIBaLUUHmS" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <ConfirmationsSetting value="1" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+@@ -52,7 +60,7 @@
+     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Sp" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+     <property name="list.type.of.created.stylesheet" value="CSS" />
+     <property name="nodejs_package_manager_path" value="npm" />
+     <property name="settings.editor.selected.configurable" value="terminal" />
+@@ -91,6 +99,8 @@
+       <workItem from="1607458721119" duration="3881000" />
+       <workItem from="1607464412349" duration="665000" />
+       <workItem from="1607524079650" duration="41000" />
++      <workItem from="1609169900353" duration="3903000" />
++      <workItem from="1609267204828" duration="2731000" />
+     </task>
+     <task id="LOCAL-00001" summary="Vytvorenie projektu">
+       <created>1607460269868</created>
+@@ -106,7 +116,28 @@
+       <option name="project" value="LOCAL" />
+       <updated>1607464649129</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="Vytvorenie filipovej vetvy mna">
++      <created>1609170061309</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1609170061309</updated>
++    </task>
++    <task id="LOCAL-00004" summary="doplnenie suboru meniny">
++      <created>1609267404791</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1609267404791</updated>
++    </task>
++    <task id="LOCAL-00005" summary="doplnenie suboru meniny">
++      <created>1609271067711</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1609271067711</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -123,7 +154,7 @@
+                   <entry key="branch">
+                     <value>
+                       <list>
+-                        <option value="master" />
++                        <option value="filip" />
+                       </list>
+                     </value>
+                   </entry>
+@@ -139,6 +170,18 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Vytvorenie projektu" />
+     <MESSAGE value="Nacitanie bootstrap kniznice" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Nacitanie bootstrap kniznice" />
++    <MESSAGE value="Vytvorenie filipovej vetvy mna" />
++    <MESSAGE value="doplnenie suboru meniny" />
++    <option name="LAST_COMMIT_MESSAGE" value="doplnenie suboru meniny" />
++  </component>
++  <component name="WindowStateProjectService">
++    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609271069748">
++      <screen x="0" y="0" width="1920" height="1040" />
++    </state>
++    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609271069748" />
++    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609507961176">
++      <screen x="0" y="0" width="1920" height="1040" />
++    </state>
++    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609507961176" />
+   </component>
+ </project>
+\ No newline at end of file

@@ -1,0 +1,86 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"sk\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Example1</title>\r\n    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\" integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">\r\n    <link rel=\"stylesheet\" href=\"css/style.css\">\r\n</head>\r\n<body class=\"container\">\r\n\r\n<nav class=\"navbar navbar-expand-md\">\r\n    <div class=\"collapse navbar-collapse\"></div>\r\n        <ul class=\"navbar-nav mr-auto\">\r\n            <li class=\"nav-item active\"><a class=\"nav-link\" href=\"index.html\">Domov</a></li>\r\n            <li class=\"nav-item\"><a class=\"nav-link\" href=\"#\">Hry</a></li>\r\n        </ul>\r\n</nav>\r\n\r\n\r\n\r\n<footer class=\"modal-footer\">\r\n    <p>Hobovci Copyright ©2020 | All Rights Reserved</p>\r\n</footer>\r\n\r\n<script src=\"https://code.jquery.com/jquery-3.4.1.slim.min.js\" integrity=\"sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n\" crossorigin=\"anonymous\"></script>\r\n<script src=\"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js\" integrity=\"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo\" crossorigin=\"anonymous\"></script>\r\n<script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js\" integrity=\"sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6\" crossorigin=\"anonymous\"></script>\r\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.1.3/pixi.min.js\"></script>\r\n<script src=\"js/script.js\"></script>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- index.html	(revision 20f5cd9e0f26a6bb80757abfc049bf3abec9fbd5)
++++ index.html	(date 1609271367001)
+@@ -5,6 +5,7 @@
+     <title>Example1</title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/style.css">
++    <script src="js/pocitadlo_vstupov.js"></script>
+ </head>
+ <body class="container">
+ 
+@@ -16,6 +17,8 @@
+         </ul>
+ </nav>
+ 
++<h2 id="pocitadlo_uzivatelov">0</h2>
++
+ 
+ 
+ <footer class="modal-footer">
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"BRANCH:filip\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </select>\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"2c14619b-2fb5-4b4e-8517-8a95cff30040\" name=\"Default Changelist\" comment=\"doplnenie suboru meniny\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\">\r\n    <execution />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"CSS File\" />\r\n        <option value=\"JavaScript File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitToolBoxStore\">\r\n    <option name=\"projectConfigVersion\" value=\"2\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1jjrqSgud7f8PSHXnRIBaLUUHmS\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"terminal\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Hrinko\\Desktop\\Zadanie7\" />\r\n      <recent name=\"C:\\Users\\Hrinko\\Desktop\\Zadanie7\\img\" />\r\n      <recent name=\"C:\\Users\\Hrinko\\Desktop\\Zadanie7\\sdsad\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"2c14619b-2fb5-4b4e-8517-8a95cff30040\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1604328533098</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1604328533098</updated>\r\n      <workItem from=\"1604328544268\" duration=\"16647000\" />\r\n      <workItem from=\"1604425738977\" duration=\"81000\" />\r\n      <workItem from=\"1604425835577\" duration=\"689000\" />\r\n      <workItem from=\"1604503762790\" duration=\"7144000\" />\r\n      <workItem from=\"1605027320304\" duration=\"32000\" />\r\n      <workItem from=\"1605888892650\" duration=\"25000\" />\r\n      <workItem from=\"1605888936801\" duration=\"4869000\" />\r\n      <workItem from=\"1605894435443\" duration=\"4591000\" />\r\n      <workItem from=\"1605899754481\" duration=\"231000\" />\r\n      <workItem from=\"1605900005649\" duration=\"6831000\" />\r\n      <workItem from=\"1606782982492\" duration=\"7144000\" />\r\n      <workItem from=\"1606845124513\" duration=\"703000\" />\r\n      <workItem from=\"1606930602470\" duration=\"44000\" />\r\n      <workItem from=\"1606938072394\" duration=\"19000\" />\r\n      <workItem from=\"1606938172584\" duration=\"10973000\" />\r\n      <workItem from=\"1607458721119\" duration=\"3881000\" />\r\n      <workItem from=\"1607464412349\" duration=\"665000\" />\r\n      <workItem from=\"1607524079650\" duration=\"41000\" />\r\n      <workItem from=\"1609169900353\" duration=\"3903000\" />\r\n      <workItem from=\"1609267204828\" duration=\"2731000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Vytvorenie projektu\">\r\n      <created>1607460269868</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1607460269868</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Nacitanie bootstrap kniznice\">\r\n      <created>1607464649129</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1607464649129</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Vytvorenie filipovej vetvy mna\">\r\n      <created>1609170061309</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609170061309</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"doplnenie suboru meniny\">\r\n      <created>1609267404791</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609267404791</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"doplnenie suboru meniny\">\r\n      <created>1609271067711</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609271067711</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"6\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"filip\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Vytvorenie projektu\" />\r\n    <MESSAGE value=\"Nacitanie bootstrap kniznice\" />\r\n    <MESSAGE value=\"Vytvorenie filipovej vetvy mna\" />\r\n    <MESSAGE value=\"doplnenie suboru meniny\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"doplnenie suboru meniny\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"552\" y=\"253\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1609271069748\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"552\" y=\"253\" key=\"Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1609271069748\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 20f5cd9e0f26a6bb80757abfc049bf3abec9fbd5)
++++ .idea/workspace.xml	(date 1609273739715)
+@@ -63,7 +63,7 @@
+     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+     <property name="list.type.of.created.stylesheet" value="CSS" />
+     <property name="nodejs_package_manager_path" value="npm" />
+-    <property name="settings.editor.selected.configurable" value="terminal" />
++    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+     <property name="vue.rearranger.settings.migration" value="true" />
+   </component>
+   <component name="RecentsManager">
+@@ -100,7 +100,7 @@
+       <workItem from="1607464412349" duration="665000" />
+       <workItem from="1607524079650" duration="41000" />
+       <workItem from="1609169900353" duration="3903000" />
+-      <workItem from="1609267204828" duration="2731000" />
++      <workItem from="1609267204828" duration="3577000" />
+     </task>
+     <task id="LOCAL-00001" summary="Vytvorenie projektu">
+       <created>1607460269868</created>
+@@ -137,7 +137,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1609271067711</updated>
+     </task>
+-    <option name="localTasksCounter" value="6" />
++    <task id="LOCAL-00006" summary="doplnenie suboru meniny">
++      <created>1609272605340</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1609272605340</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -175,9 +182,13 @@
+     <option name="LAST_COMMIT_MESSAGE" value="doplnenie suboru meniny" />
+   </component>
+   <component name="WindowStateProjectService">
+-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609271069748">
++    <state x="461" y="165" key="SettingsEditor" timestamp="1609272776967">
++      <screen x="0" y="0" width="1920" height="1040" />
++    </state>
++    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609272776967" />
++    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609272627545">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609271069748" />
++    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609272627545" />
+   </component>
+ </project>
+\ No newline at end of file
