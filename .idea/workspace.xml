@@ -6,26 +6,37 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/kristian" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="Vytvorenie projektu">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/zadanie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/zadanie.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,10 +63,10 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Sp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../zaverecny-projekt-kristian" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -91,6 +102,9 @@
       <workItem from="1607458721119" duration="3881000" />
       <workItem from="1607464412349" duration="665000" />
       <workItem from="1607524079650" duration="41000" />
+      <workItem from="1609599034732" duration="101000" />
+      <workItem from="1609599164298" duration="1483000" />
+      <workItem from="1609600678868" duration="332000" />
     </task>
     <task id="LOCAL-00001" summary="Vytvorenie projektu">
       <created>1607460269868</created>
@@ -118,12 +132,17 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/kristian" />
                       </list>
                     </value>
                   </entry>
@@ -140,5 +159,25 @@
     <MESSAGE value="Vytvorenie projektu" />
     <MESSAGE value="Nacitanie bootstrap kniznice" />
     <option name="LAST_COMMIT_MESSAGE" value="Nacitanie bootstrap kniznice" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1081" y="207" key="#HTML" timestamp="1609599560477">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1081" y="207" key="#HTML/247.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1609599560477" />
+    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1609600687665">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="812" y="-986" key="FileChooserDialogImpl/0.0.1920.1040/-248.-1440.2560.1400@-248.-1440.2560.1400" timestamp="1609599111155" />
+    <state x="1060" y="454" key="FileChooserDialogImpl/247.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1609600687665" />
+    <state x="781" y="344" key="SettingsEditor" timestamp="1609600619398">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="781" y="344" key="SettingsEditor/247.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1609600619398" />
+    <state x="1097" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609599675085">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="849" y="-827" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-248.-1440.2560.1400@-248.-1440.2560.1400" timestamp="1609599170681" />
+    <state x="1097" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/247.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1609599675085" />
   </component>
 </project>
