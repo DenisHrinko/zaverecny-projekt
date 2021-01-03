@@ -17,8 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="Zmena dizajnu">
-      <change afterPath="$PROJECT_DIR$/css/namesDay.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/namesday.html" beforeDir="false" afterPath="$PROJECT_DIR$/namesday.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/namesday.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/namesday.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609681184449</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Zmena dizajnu">
+      <created>1609681875897</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609681875897</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
