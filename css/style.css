@@ -2,6 +2,10 @@ body{
     margin: 0;
     color: white;
     background-image: url('img/bg.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .overlay{
@@ -46,6 +50,7 @@ h1{
 }
 
 footer{
+    margin-top: 40px;
     color: white;
     position: absolute;
     top: 96%;

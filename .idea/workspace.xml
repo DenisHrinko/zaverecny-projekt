@@ -6,28 +6,41 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/kristian" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="Vytvorenie menu.js a menu.css">
-      <change afterPath="$PROJECT_DIR$/css/img/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/img/denis.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/img/filip.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/img/kristian.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/img/matus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/informacie.css" afterDir="false" />
+    <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="Gosskyho branch mfs">
+      <change afterPath="$PROJECT_DIR$/hragossky.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/games/hragossky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/namesday.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/namesday.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_1_1_2021_2_26_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_1_1_2021_2_26_PM__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bg.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kiko.html" beforeDir="false" afterPath="$PROJECT_DIR$/informacie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrafilip.html" beforeDir="false" afterPath="$PROJECT_DIR$/hrafilip.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/informacie.html" beforeDir="false" afterPath="$PROJECT_DIR$/informacie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hrafilip.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/games/hrafilip.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +53,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -71,7 +84,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Sp" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects/zadanie6" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -85,6 +98,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\Desktop\Git\zaverecny-projekt\css\img\hragossky" />
+      <recent name="C:\Users\Asus\Desktop\Git\zaverecny-projekt\js\games" />
       <recent name="C:\Users\Hrinko\Desktop\Zadanie7" />
       <recent name="C:\Users\Hrinko\Desktop\Zadanie7\img" />
       <recent name="C:\Users\Hrinko\Desktop\Zadanie7\sdsad" />
@@ -170,7 +185,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/kristian" />
                       </list>
                     </value>
                   </entry>
@@ -190,6 +205,25 @@
     <MESSAGE value="Vytvorenie Kristianovej vetvy" />
     <MESSAGE value="Vytvorenie domovskej stranky a menu" />
     <MESSAGE value="Vytvorenie menu.js a menu.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vytvorenie menu.js a menu.css" />
+    <MESSAGE value="Gosskyho branch mfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gosskyho branch mfs" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1609644295971">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="454" key="FileChooserDialogImpl/247.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1609644295971" />
+    <state x="248" y="122" key="MergeDialog" timestamp="1609601305066">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="248" y="122" key="MergeDialog/247.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1609601305066" />
+    <state x="918" y="461" key="MultipleFileMergeDialog" timestamp="1609601305084">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="918" y="461" key="MultipleFileMergeDialog/247.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1609601305084" />
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1609601210560">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2/247.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1609601210560" />
   </component>
 </project>
