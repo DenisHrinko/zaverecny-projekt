@@ -27,20 +27,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="Gosskyho branch mfs">
-      <change afterPath="$PROJECT_DIR$/hragossky.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/games/hragossky.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/namesday.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/namesday.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_1_1_2021_2_26_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_1_1_2021_2_26_PM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/namesday.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/namesday.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrafilip.html" beforeDir="false" afterPath="$PROJECT_DIR$/hrafilip.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/informacie.html" beforeDir="false" afterPath="$PROJECT_DIR$/informacie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hrafilip.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/games/hrafilip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/namesday.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/namesday.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609341153011</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Gosskyho branch mfs">
+      <created>1609676968648</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609676968648</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +207,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Gosskyho branch mfs" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609677647554">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/247.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1609677647554" />
     <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1609644295971">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -221,9 +223,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="918" y="461" key="MultipleFileMergeDialog/247.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1609601305084" />
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1609601210560">
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1609676975724">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2/247.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1609601210560" />
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2/247.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1609676975724" />
   </component>
 </project>
