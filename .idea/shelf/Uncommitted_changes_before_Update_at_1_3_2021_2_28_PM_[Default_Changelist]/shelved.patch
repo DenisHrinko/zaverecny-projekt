@@ -1,0 +1,186 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"sk\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Domov</title>\r\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css\"\r\n          integrity=\"sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2\" crossorigin=\"anonymous\">\r\n    <link rel=\"stylesheet\" href=\"css/style.css\">\r\n    <link rel=\"stylesheet\" href=\"css/menu.css\">\r\n    <script src=\"https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.11/lib/draggable.bundle.js\"></script>\r\n</head>\r\n\r\n<body>\r\n\r\n<div class=\"overlay\">\r\n    <header>\r\n        <h1>Domovská <br> stránka</h1>\r\n        <nav id=\"menu\">\r\n\r\n        </nav>\r\n    </header>\r\n    <div class=\"line\"></div>\r\n\r\n    <section class=\"kalendar\">\r\n        <input name=\"meno\" id=\"meno\">\r\n        <label for=\"meno\">Zadaj meno</label>\r\n        <input name=\"datum\" id=\"datum\">\r\n        <label for=\"datum\">Dátum</label>\r\n    </section>\r\n    <section class=\"visitorcounter\">\r\n        <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=709578bf28c8d1ef64a762af03f8536c2b2c8320'></script>\r\n        <script type=\"text/javascript\" src=\"https://www.freevisitorcounters.com/en/home/counter/779145/t/2\"></script>\r\n    </section>\r\n\r\n    <div>\r\n        <iframe src=\"http://free.timeanddate.com/clock/i7m6b14z/n3991/tlsk25/fn14/fs32/ftb/bac9f9/tt0/tw0/tm1/tb4\" frameborder=\"0\" width=\"219\" height=\"82\"></iframe>\r\n    </div>\r\n\r\n    <footer>\r\n        <p>Hobovci Copyright ©2020 | All Rights Reserved</p>\r\n    </footer>\r\n</div>\r\n<ul class=\"breadcrumb\">\r\n    <li><a href=\"index.html\">Domov</a></li>\r\n    <li><a href=\"informacie.html\">o nas</a></li>\r\n    <li><a href=\"#\">Summer 15</a></li>\r\n    <li>Italy</li>\r\n</ul>\r\n\r\n<script src=\"https://code.jquery.com/jquery-3.5.0.js\"></script>\r\n<script src=\"js/menu.js\"></script>\r\n<script src=\"js/script.js\"></script>\r\n</body>\r\n\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision f696d50a50d2310019b655c7e5217b6bd0430f94)
++++ b/index.html	(date 1609601643296)
+@@ -29,6 +29,7 @@
+         <input name="datum" id="datum">
+         <label for="datum">Dátum</label>
+     </section>
++
+     <section class="visitorcounter">
+         <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=709578bf28c8d1ef64a762af03f8536c2b2c8320'></script>
+         <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/779145/t/2"></script>
+@@ -41,13 +42,6 @@
+     <footer>
+         <p>Hobovci Copyright ©2020 | All Rights Reserved</p>
+     </footer>
+-</div>
+-<ul class="breadcrumb">
+-    <li><a href="index.html">Domov</a></li>
+-    <li><a href="informacie.html">o nas</a></li>
+-    <li><a href="#">Summer 15</a></li>
+-    <li>Italy</li>
+-</ul>
+ 
+ <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+ <script src="js/menu.js"></script>
+Index: css/style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>body{\r\n    margin: 0;\r\n    color: white;\r\n    background-image: url('img/bg.jpg');\r\n}\r\n\r\n.overlay{\r\n    width: 100%;\r\n    height: 100vh;\r\n    color: black;\r\n    z-index: 1;\r\n    background-color: black;\r\n    opacity: .6;\r\n}\r\n\r\nh1{\r\n    text-align: center;\r\n    color: white;\r\n    position: absolute;\r\n    top: 50%;\r\n    left: 15%;\r\n    transform: translateX(-15%);\r\n    transform: translateY(-50%);\r\n    font-size: 5rem;\r\n}\r\n\r\n.line\r\n{\r\n    border-bottom: 1px solid white;\r\n    width: 100%;\r\n    position: absolute;\r\n    bottom: 4%;\r\n}\r\n\r\n.kalendar\r\n{\r\n    color: black;\r\n    width: 400px;\r\n    height: 500px;\r\n    border: 2px solid blanchedalmond;\r\n    position: absolute;\r\n    top: 30%;\r\n    left: 68%;\r\n    transform: translate(-60% -50%);\r\n    background-color: white;\r\n}\r\n\r\nfooter{\r\n    color: white;\r\n    position: absolute;\r\n    top: 96%;\r\n    right: 2%;\r\n}\r\n\r\n@media only screen and (max-width: 1270px) {\r\n    .kalendar{\r\n        left: 60%;\r\n    }\r\n}\r\n\r\n@media only screen and (max-width: 1020px) {\r\n    h1{\r\n        top: 18%;\r\n        font-size: 4rem;\r\n    }\r\n    .kalendar{\r\n        left: 10%;\r\n    }\r\n}\r\n\r\n@media only screen and (max-width: 460px) {\r\n    .kalendar{\r\n        left: 2%;\r\n        width: 300px;\r\n        height: 400px;\r\n    }\r\n}\r\nul.breadcrumb {\r\n    padding: 10px 16px;\r\n    list-style: none;\r\n    background-color: #eee;\r\n}\r\n\r\n/* Display list items side by side */\r\nul.breadcrumb li {\r\n    display: inline;\r\n    font-size: 18px;\r\n}\r\n\r\n/* Add a slash symbol (/) before/behind each list item */\r\nul.breadcrumb li+li:before {\r\n    padding: 8px;\r\n    color: black;\r\n    content: \"/\\00a0\";\r\n}\r\n\r\n/* Add a color to all links inside the list */\r\nul.breadcrumb li a {\r\n    color: #0275d8;\r\n    text-decoration: none;\r\n}\r\n\r\n/* Add a color on mouse-over */\r\nul.breadcrumb li a:hover {\r\n    color: #01447e;\r\n    text-decoration: underline;\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/css/style.css b/css/style.css
+--- a/css/style.css	(revision f696d50a50d2310019b655c7e5217b6bd0430f94)
++++ b/css/style.css	(date 1609679410177)
+@@ -104,4 +104,14 @@
+ ul.breadcrumb li a:hover {
+     color: #01447e;
+     text-decoration: underline;
++}
++
++#error_709578bf28c8d1ef64a762af03f8536c2b2c8320
++{
++    display: none;
++}
++
++.visitorcounter{
++    position: absolute;
++    bottom: 0;
+ }
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"BRANCH:filip\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </select>\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"2c14619b-2fb5-4b4e-8517-8a95cff30040\" name=\"Default Changelist\" comment=\"nahratie vedecke ucely\">\r\n      <change afterPath=\"$PROJECT_DIR$/css/hrafilip.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/hrafilip.html\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/js/hrafilip.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/deployment.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/deployment.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/jsLibraryMappings.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/jsLibraryMappings.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/zadanie.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/zadanie.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/css/menu.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/css/menu.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/css/style.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/css/style.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/js/menu.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/js/menu.js\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\">\r\n    <execution />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"JavaScript File\" />\r\n        <option value=\"CSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitToolBoxStore\">\r\n    <option name=\"projectConfigVersion\" value=\"2\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1jjrqSgud7f8PSHXnRIBaLUUHmS\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\r\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"WebServerToolWindowPanel.toolwindow.highlight.mappings\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowPanel.toolwindow.highlight.symlinks\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowPanel.toolwindow.show.date\" value=\"false\" />\r\n    <property name=\"WebServerToolWindowPanel.toolwindow.show.permissions\" value=\"false\" />\r\n    <property name=\"WebServerToolWindowPanel.toolwindow.show.size\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/../Sp\" />\r\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\r\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"terminal\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\hodky\\OneDrive\\Počítač\\git\\zaverecny-projekt\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Hrinko\\Desktop\\Zadanie7\" />\r\n      <recent name=\"C:\\Users\\Hrinko\\Desktop\\Zadanie7\\img\" />\r\n      <recent name=\"C:\\Users\\Hrinko\\Desktop\\Zadanie7\\sdsad\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"2c14619b-2fb5-4b4e-8517-8a95cff30040\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1604328533098</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1604328533098</updated>\r\n      <workItem from=\"1604328544268\" duration=\"16647000\" />\r\n      <workItem from=\"1604425738977\" duration=\"81000\" />\r\n      <workItem from=\"1604425835577\" duration=\"689000\" />\r\n      <workItem from=\"1604503762790\" duration=\"7144000\" />\r\n      <workItem from=\"1605027320304\" duration=\"32000\" />\r\n      <workItem from=\"1605888892650\" duration=\"25000\" />\r\n      <workItem from=\"1605888936801\" duration=\"4869000\" />\r\n      <workItem from=\"1605894435443\" duration=\"4591000\" />\r\n      <workItem from=\"1605899754481\" duration=\"231000\" />\r\n      <workItem from=\"1605900005649\" duration=\"6831000\" />\r\n      <workItem from=\"1606782982492\" duration=\"7144000\" />\r\n      <workItem from=\"1606845124513\" duration=\"703000\" />\r\n      <workItem from=\"1606930602470\" duration=\"44000\" />\r\n      <workItem from=\"1606938072394\" duration=\"19000\" />\r\n      <workItem from=\"1606938172584\" duration=\"10973000\" />\r\n      <workItem from=\"1607458721119\" duration=\"3881000\" />\r\n      <workItem from=\"1607464412349\" duration=\"665000\" />\r\n      <workItem from=\"1607524079650\" duration=\"41000\" />\r\n      <workItem from=\"1609171612239\" duration=\"16705000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Vytvorenie projektu\">\r\n      <created>1607460269868</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1607460269868</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Nacitanie bootstrap kniznice\">\r\n      <created>1607464649129</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1607464649129</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Vytvorenie Kristianovej vetvy\">\r\n      <created>1609171792733</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609171792733</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Vytvorenie domovskej stranky a menu\">\r\n      <created>1609274611052</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609274611052</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Vytvorenie menu.js a menu.css\">\r\n      <created>1609341153011</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609341153011</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"nahratie vedecke ucely\">\r\n      <created>1609508264807</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609508264807</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"Vytvorenie projektu\" />\r\n    <MESSAGE value=\"Nacitanie bootstrap kniznice\" />\r\n    <MESSAGE value=\"Vytvorenie Kristianovej vetvy\" />\r\n    <MESSAGE value=\"Vytvorenie domovskej stranky a menu\" />\r\n    <MESSAGE value=\"Vytvorenie menu.js a menu.css\" />\r\n    <MESSAGE value=\"nahratie vedecke ucely\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"nahratie vedecke ucely\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"552\" y=\"178\" key=\"#Deployment\" timestamp=\"1609508422952\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"552\" y=\"178\" key=\"#Deployment/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1609508422952\" />\r\n    <state x=\"714\" y=\"322\" key=\"#com.intellij.fileTypes.FileTypeChooser\" timestamp=\"1609520509807\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"714\" y=\"322\" key=\"#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1609520509807\" />\r\n    <state x=\"552\" y=\"253\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1609508282328\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"552\" y=\"253\" key=\"Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1609508282328\" />\r\n    <state x=\"830\" y=\"411\" key=\"publish.login\" timestamp=\"1609508464048\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"830\" y=\"411\" key=\"publish.login/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1609508464048\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision f696d50a50d2310019b655c7e5217b6bd0430f94)
++++ b/.idea/workspace.xml	(date 1609680500848)
+@@ -11,23 +11,18 @@
+       <path>
+         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-        <item name="BRANCH:filip" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+       </path>
+     </select>
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="nahratie vedecke ucely">
+-      <change afterPath="$PROJECT_DIR$/css/hrafilip.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/hrafilip.html" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/js/hrafilip.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
++    <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="Oprava Goškyho mena">
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_1_1_2021_2_26_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_1_1_2021_2_26_PM__Default_Changelist_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_1.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/zadanie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/zadanie.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/menu.css" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/menu.js" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -41,8 +36,8 @@
+     <option name="RECENT_TEMPLATES">
+       <list>
+         <option value="HTML File" />
+-        <option value="JavaScript File" />
+         <option value="CSS File" />
++        <option value="JavaScript File" />
+       </list>
+     </option>
+   </component>
+@@ -71,11 +66,6 @@
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+-    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+-    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+-    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+-    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+-    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Sp" />
+     <property name="list.type.of.created.stylesheet" value="CSS" />
+     <property name="node.js.detected.package.eslint" value="true" />
+@@ -85,13 +75,10 @@
+     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+     <property name="nodejs_package_manager_path" value="npm" />
+-    <property name="settings.editor.selected.configurable" value="terminal" />
++    <property name="settings.editor.selected.configurable" value="tasks" />
+     <property name="vue.rearranger.settings.migration" value="true" />
+   </component>
+   <component name="RecentsManager">
+-    <key name="CopyFile.RECENT_KEYS">
+-      <recent name="C:\Users\hodky\OneDrive\Počítač\git\zaverecny-projekt" />
+-    </key>
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="C:\Users\Hrinko\Desktop\Zadanie7" />
+       <recent name="C:\Users\Hrinko\Desktop\Zadanie7\img" />
+@@ -125,6 +112,7 @@
+       <workItem from="1607464412349" duration="665000" />
+       <workItem from="1607524079650" duration="41000" />
+       <workItem from="1609171612239" duration="16705000" />
++      <workItem from="1609679307168" duration="1015000" />
+     </task>
+     <task id="LOCAL-00001" summary="Vytvorenie projektu">
+       <created>1607460269868</created>
+@@ -161,14 +149,7 @@
+       <option name="project" value="LOCAL" />
+       <updated>1609341153011</updated>
+     </task>
+-    <task id="LOCAL-00006" summary="nahratie vedecke ucely">
+-      <created>1609508264807</created>
+-      <option name="number" value="00006" />
+-      <option name="presentableId" value="LOCAL-00006" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1609508264807</updated>
+-    </task>
+-    <option name="localTasksCounter" value="7" />
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -205,25 +186,6 @@
+     <MESSAGE value="Vytvorenie Kristianovej vetvy" />
+     <MESSAGE value="Vytvorenie domovskej stranky a menu" />
+     <MESSAGE value="Vytvorenie menu.js a menu.css" />
+-    <MESSAGE value="nahratie vedecke ucely" />
+-    <option name="LAST_COMMIT_MESSAGE" value="nahratie vedecke ucely" />
+-  </component>
+-  <component name="WindowStateProjectService">
+-    <state x="552" y="178" key="#Deployment" timestamp="1609508422952">
+-      <screen x="0" y="0" width="1920" height="1040" />
+-    </state>
+-    <state x="552" y="178" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1609508422952" />
+-    <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609520509807">
+-      <screen x="0" y="0" width="1920" height="1040" />
+-    </state>
+-    <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609520509807" />
+-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609508282328">
+-      <screen x="0" y="0" width="1920" height="1040" />
+-    </state>
+-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609508282328" />
+-    <state x="830" y="411" key="publish.login" timestamp="1609508464048">
+-      <screen x="0" y="0" width="1920" height="1040" />
+-    </state>
+-    <state x="830" y="411" key="publish.login/0.0.1920.1040@0.0.1920.1040" timestamp="1609508464048" />
++    <option name="LAST_COMMIT_MESSAGE" value="Vytvorenie menu.js a menu.css" />
+   </component>
+ </project>
+\ No newline at end of file

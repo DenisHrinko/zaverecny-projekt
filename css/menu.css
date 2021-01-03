@@ -3,6 +3,14 @@ nav{
     right: 0;
 }
 
+nav{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background: black;
+    opacity: .8;
+}
+
 ul{
     margin: 0;
     padding: 0;
