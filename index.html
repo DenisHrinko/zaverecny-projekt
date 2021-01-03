@@ -14,57 +14,35 @@
 
 <body>
 
-<div >
+<div class="overlay">
     <header>
         <h1>Domovská <br> stránka</h1>
         <nav id="menu">
 
         </nav>
     </header>
-
     <div class="line"></div>
 
     <section class="kalendar">
-
-        <div class="container">
-            <div class="row justify-content-md-center">
-                <div class="col-sm-">
-                    <div id="actual"></div>
-                </div>
-
-            </div>
-            <div class="row justify-content-md-center">
-                <div class="col-md-auto">
-                    <input type="text" id="input" class="form-control" data-toggle="tooltip" data-trigger="manual" data-placement="bottom">
-                </div>
-                <div class="col- ">
-                    <button type="button" class="form-control" onclick="namedayFunction()">Hľadaj</button>
-
-                </div>
-                <div class="col-md-auto">
-                    <p id="output"></p>
-                </div>
-            </div>
-        </div>
-
+        <input name="meno" id="meno">
+        <label for="meno">Zadaj meno</label>
+        <input name="datum" id="datum">
+        <label for="datum">Dátum</label>
     </section>
     <section class="visitorcounter">
+        <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=709578bf28c8d1ef64a762af03f8536c2b2c8320'></script>
         <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/779145/t/2"></script>
     </section>
-
-    <div>
-        <iframe src="http://free.timeanddate.com/clock/i7m6b14z/n3991/tlsk25/fn14/fs32/ftb/bac9f9/tt0/tw0/tm1/tb4" frameborder="0" width="219" height="82"></iframe>
-    </div>
 
     <footer>
         <p>Hobovci Copyright ©2020 | All Rights Reserved</p>
     </footer>
 </div>
 
+
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 <script src="js/menu.js"></script>
 <script src="js/script.js"></script>
-<script src="js/namesday.js"></script>
 </body>
 
 </html>
