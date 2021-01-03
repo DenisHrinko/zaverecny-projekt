@@ -17,20 +17,6 @@ h1{
     transform: translateX(-15%);
     transform: translateY(-50%);
     font-size: 5rem;
-    box-shadow: 0 0 0 5px;
-}
-
-.kalendar
-{
-    color: black;
-    width: 400px;
-    height: 500px;
-    border: 2px solid blanchedalmond;
-    position: absolute;
-    top: 30%;
-    left: 68%;
-    transform: translate(-60% -50%);
-    background-color: white;
 }
 
 footer{
@@ -43,27 +29,9 @@ footer{
     opacity: .8;
 }
 
-@media only screen and (max-width: 1270px) {
-    .kalendar{
-        left: 60%;
-    }
-}
-
 @media only screen and (max-width: 1020px) {
     h1{
-        top: 18%;
         font-size: 4rem;
-    }
-    .kalendar{
-        left: 10%;
-    }
-}
-
-@media only screen and (max-width: 460px) {
-    .kalendar{
-        left: 2%;
-        width: 300px;
-        height: 400px;
     }
 }
 
@@ -105,9 +73,8 @@ ul.breadcrumb li a:hover {
 
 .visitorcounter{
     position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
+    right: 0;
+    top: 1.7%;
 }
 
 footer p{
