@@ -8,11 +8,9 @@ body{
     background-size: cover;
 }
 
-
-
 h1{
     text-align: center;
-    color: white;
+    color: black;
     position: absolute;
     top: 50%;
     left: 15%;
@@ -21,58 +19,22 @@ h1{
     font-size: 5rem;
 }
 
-.line
-{
-    border-bottom: 1px solid white;
-    width: 100%;
-    position: absolute;
-    bottom: 4%;
-}
-
-.kalendar
-{
-    color: black;
-    width: 400px;
-    height: 500px;
-    border: 2px solid blanchedalmond;
-    position: absolute;
-    top: 30%;
-    left: 68%;
-    transform: translate(-60% -50%);
-    background-color: white;
-}
-
 footer{
-    margin-top: 40px;
     color: white;
     position: absolute;
-    top: 96%;
-    right: 2%;
-}
+    bottom: 0;
 
-@media only screen and (max-width: 1270px) {
-    .kalendar{
-        left: 60%;
-    }
+    width: 100%;
+    background: black;
+    opacity: .8;
 }
 
 @media only screen and (max-width: 1020px) {
     h1{
-        top: 18%;
         font-size: 4rem;
-    }
-    .kalendar{
-        left: 10%;
     }
 }
 
-@media only screen and (max-width: 460px) {
-    .kalendar{
-        left: 2%;
-        width: 300px;
-        height: 400px;
-    }
-}
 ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;
@@ -111,5 +73,10 @@ ul.breadcrumb li a:hover {
 
 .visitorcounter{
     position: absolute;
-    bottom: 0;
+    right: 0;
+    top: 1.7%;
+}
+
+footer p{
+    float: right;
 }
