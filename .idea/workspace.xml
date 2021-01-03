@@ -27,8 +27,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="Gosskyho branch mfs">
+      <change afterPath="$PROJECT_DIR$/namesday.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/namesday.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/namesday.html" beforeDir="false" afterPath="$PROJECT_DIR$/namesday.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/namesday.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/namesday.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,14 +166,7 @@
       <option name="project" value="LOCAL" />
       <updated>1609676968648</updated>
     </task>
-    <task id="LOCAL-00007" summary="Gosskyho branch mfs">
-      <created>1609680427697</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1609680427697</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,9 +223,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="918" y="461" key="MultipleFileMergeDialog/247.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1609601305084" />
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1609680433234">
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2" timestamp="1609676975724">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="432" key="Vcs.Push.Dialog.v2/247.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1609680433234" />
+    <state x="872" y="432" key="Vcs.Push.Dialog.v2/247.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1609676975724" />
   </component>
 </project>
