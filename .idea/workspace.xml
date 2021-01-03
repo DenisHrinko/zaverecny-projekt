@@ -16,15 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="Oprava Goškyho mena">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_1_1_2021_2_26_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_1_1_2021_2_26_PM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/namesday.html" beforeDir="false" afterPath="$PROJECT_DIR$/namesday.html" afterDir="false" />
-    </list>
+    <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="Zmena dizajnu" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609508264807</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Zmena dizajnu">
+      <created>1609681067840</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609681067840</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,24 +201,7 @@
     <MESSAGE value="Vytvorenie domovskej stranky a menu" />
     <MESSAGE value="Vytvorenie menu.js a menu.css" />
     <MESSAGE value="nahratie vedecke ucely" />
-    <option name="LAST_COMMIT_MESSAGE" value="nahratie vedecke ucely" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Deployment" timestamp="1609508422952">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="178" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1609508422952" />
-    <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609520509807">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609520509807" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609508282328">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609508282328" />
-    <state x="830" y="411" key="publish.login" timestamp="1609508464048">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="830" y="411" key="publish.login/0.0.1920.1040@0.0.1920.1040" timestamp="1609508464048" />
+    <MESSAGE value="Zmena dizajnu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zmena dizajnu" />
   </component>
 </project>
