@@ -9,10 +9,10 @@ $('[data-toggle="tooltip"]').tooltip();
 
 //onload function just to get data from json
 
-function load() {
-
+window.onload = (event) =>  {
     $.getJSON("namesday.json", function(json) {
         set(json);
+        console.log(json);
     })
 }
 
@@ -47,9 +47,6 @@ function set(json) {
     var name = dict1[q];
     document.getElementById("actual").innerText = today + "  " + name;
 }
-
-
-
 
 //main fn to get name or date
 function namesdayFunction() {
