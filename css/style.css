@@ -8,25 +8,16 @@ body{
     background-size: cover;
 }
 
-
-
 h1{
     text-align: center;
-    color: white;
+    color: black;
     position: absolute;
     top: 50%;
     left: 15%;
     transform: translateX(-15%);
     transform: translateY(-50%);
     font-size: 5rem;
-}
-
-.line
-{
-    border-bottom: 1px solid white;
-    width: 100%;
-    position: absolute;
-    bottom: 4%;
+    box-shadow: 0 0 0 5px;
 }
 
 .kalendar
@@ -43,11 +34,13 @@ h1{
 }
 
 footer{
-    margin-top: 40px;
     color: white;
     position: absolute;
-    top: 96%;
-    right: 2%;
+    bottom: 0;
+
+    width: 100%;
+    background: black;
+    opacity: .8;
 }
 
 @media only screen and (max-width: 1270px) {
@@ -73,6 +66,7 @@ footer{
         height: 400px;
     }
 }
+
 ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;
@@ -112,4 +106,10 @@ ul.breadcrumb li a:hover {
 .visitorcounter{
     position: absolute;
     bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+footer p{
+    float: right;
 }
