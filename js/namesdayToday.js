@@ -42,20 +42,21 @@ $('#search').click(function(){
     }else{
         $.getJSON("./namesday.json", function(json){
             for(i=0; i<json.meniny.zaznam.length;i++) {
-                if (json.meniny.zaznam[i].SK != undefined && input[0].toLowerCase() == json.meniny.zaznam[i].SK.toLowerCase()) {
-                    output.innerHTML = json.meniny.zaznam[i].den[2] + json.meniny.zaznam[i].den[3] + '.' + json.meniny.zaznam[i].den[0] + json.meniny.zaznam[i].den[1];
-                }
+               if(json.meniny.zaznam[i].SK !== undefined) {
+                   let splitJson = json.meniny.zaznam[i].SK.split(', ')
+                   if(splitJson.length>1){
+                       for(j=0; j<splitJson.length;j++)
+                       {
+                           if(splitJson[j].toLowerCase() === input[0].toLowerCase()){
+                               output.innerHTML = json.meniny.zaznam[i].den[2] + json.meniny.zaznam[i].den[3] + '.' + json.meniny.zaznam[i].den[0] + json.meniny.zaznam[i].den[1];
+                           }
+                       }
+                   }
+                   if (input[0].toLowerCase() === json.meniny.zaznam[i].SK.toLowerCase()) {
+                       output.innerHTML = json.meniny.zaznam[i].den[2] + json.meniny.zaznam[i].den[3] + '.' + json.meniny.zaznam[i].den[0] + json.meniny.zaznam[i].den[1];
+                   }
+               }
             }
         })
     }
 })
-
-function normalizeString(input) {
-    for(i=0;i<input[0].length;i++)
-    {
-        input[0][i].normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-        console.log(input)
-    }
-    return input;
-}
-
