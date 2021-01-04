@@ -10,7 +10,7 @@ $('[data-toggle="tooltip"]').tooltip();
 //onload function just to get data from json
 
 window.onload = (event) =>  {
-    $.getJSON("namesday.json", function(json) {
+    $.getJSON("./namesday.json", function(json) {
         set(json);
         console.log(json);
     })

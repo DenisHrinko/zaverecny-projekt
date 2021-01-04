@@ -21,18 +21,16 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/kristian" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="Gosskyho branch mfs">
-      <change afterPath="$PROJECT_DIR$/css/img/calendar.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_2_2021_3_58_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_2_2021_3_58_PM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_3_2021_2_28_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_3_2021_2_28_PM__Default_Changelist_.xml" afterDir="false" />
+    <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="update vzhladu">
+      <change afterPath="$PROJECT_DIR$/css/img/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/img/backgroundDomovskaObrazovku.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/namesDay.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/namesDay.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/namesday.html" beforeDir="false" afterPath="$PROJECT_DIR$/namesday.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/namesday.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/namesday.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609676968648</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update vzhladu">
+      <created>1609721812867</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609721812868</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +210,8 @@
     <MESSAGE value="Vytvorenie domovskej stranky a menu" />
     <MESSAGE value="Vytvorenie menu.js a menu.css" />
     <MESSAGE value="Gosskyho branch mfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gosskyho branch mfs" />
+    <MESSAGE value="update vzhladu" />
+    <option name="LAST_COMMIT_MESSAGE" value="update vzhladu" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609683418561">
