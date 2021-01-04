@@ -22,6 +22,8 @@ h1{
     font-size: 5rem;
     box-shadow: 0 0 0 5px;
     background-image: url('img/backgroundDomovskaObrazovka.jpg');
+    padding: 20px;
+    border-radius: 5px;
 }
 
 .kalendar
