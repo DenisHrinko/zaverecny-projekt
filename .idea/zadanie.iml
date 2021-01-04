@@ -14,5 +14,7 @@
     <orderEntry type="library" name="leaflet-routing-machine" level="application" />
     <orderEntry type="library" name="jquery-3.5.0" level="application" />
     <orderEntry type="library" name="@shopify/draggable" level="application" />
+    <orderEntry type="library" name="font-awesome" level="application" />
+    <orderEntry type="library" name="jquery-3.5.0" level="application" />
   </component>
 </module>

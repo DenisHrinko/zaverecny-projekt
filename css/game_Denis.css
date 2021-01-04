@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+}
+
+.mapa{
+    opacity: .4;
+    position: absolute;
+    //filter: grayscale(100%);
+}
+
+#bosna{
+    transform: translate(957%, 667%);
+    z-index: 8;
+}
+
+#bulharsko{
+    transform: translate(700%, 520%);
+    z-index: 2;
+}
+
+#cesko{
+    transform: translate(585%, 480%);
+    z-index: 4;
+}
+
+#madarsko{
+    transform: translate(640%, 452%);
+    z-index: 3;
+}
+
+#montenegro{
+    transform: translate(2165%, 1286%);
+    z-index: 15;
+}
+
+
+#polsko{
+    transform: translate(400%, 140%);
+    z-index: 1;
+}
+
+#rumunsko{
+    transform: translate(453%, 275%);
+    z-index: 2;
+}
+
+#serbia{
+    transform: translate(874%, 408%);
+    z-index: 5;
+}
+
+#slovensko{
+    transform: translate(764%, 662%);
+    z-index: 5;
+}
+
+.mapa2{
+    display: inline-block;
+    width: calc(10px + 100px);
+    transform: translate(60%, 70%);
+}
+
+#but {
+    transform: translate(2300%, 600%);
+}
+
+p{
+    color: white;
+    position: absolute;
+    transform: translate(800%, 100%);
+    font-size: 30px;
+}
+
+h6{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -250%);
+}

@@ -23,3 +23,19 @@
     font-family: 'Arapey';
     font-size: 20px;
 }
+
+.denishra {
+    position: absolute;
+    transform: translate(6%, 205%);
+    color: black;
+    font-family: 'Arapey';
+    font-size: 20px;
+}
+
+.kikohra {
+    position: absolute;
+    transform: translate(-360%, -1550%);
+    color: white;
+    font-family: 'Arapey';
+    font-size: 20px;
+}
