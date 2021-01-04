@@ -50,8 +50,10 @@ function drop(event){
             string += draggableElementData[i];
         }
 
+
         document.getElementById(string).style.opacity = '1';
         document.getElementById(draggableElementData).style.opacity = '0';
+        document.getElementById(draggableElementData).style.display = 'none';
         counter = counter + 1;
         if(counter === 7){
             document.getElementById('overlay').style.display = 'none';
@@ -65,9 +67,11 @@ $('.resetBtn').click(function(){
     counter = 0;
     draggableElements.forEach(elem =>{
         elem.style.opacity = '1';
+        elem.style.display = 'block';
     });
     droppableElements.forEach(elem =>{
         elem.style.opacity = '.4'
+        elem.style.display = 'block'
     });
     document.getElementById('overlay').style.display = 'block';
     document.getElementById('win').style.display = 'none';
