@@ -3,7 +3,7 @@ var dict1 = {};
 
 //dictionary formated key[name] - value[day], each key consist from one name, so if one day have multiple ones, they appear as independent keys
 var dict2 = {};
-let i;
+
 //basic tooltip setup
 $('[data-toggle="tooltip"]').tooltip();
 
@@ -11,33 +11,41 @@ $('[data-toggle="tooltip"]').tooltip();
 
 window.onload = (event) =>  {
     $.getJSON("namesday.json", function(json) {
-        var today = new Date();
-        var dd = String(today.getDate()).padStart(2, '0');
-        var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-        var yyyy = today.getFullYear();
-
-        today = dd + '/' + mm + '/' + yyyy;
-        var q = mm + dd;
-
-        //first dict
-        for(i=0;i<json.length;i++){
-            dict1[den] = SK;
-        }
-        //sec dict where we check if one day includes more than one name, if so we split it and make dict entries for every single one
-        for(i=0;i<json.length;i++) {
-            if ((SK).includes(', ')) {
-                var names = (SK).split(', ');
-                names.forEach(function(q) {
-                    dict2[q] = den;
-                })
-            } else {
-                dict2[SK] = den;
-            }
-        }
-        //find name for current date 'q'
-        var name = dict1[q];
-        document.getElementById("actual").innerText = today + "  " + name;
+        set(json);
+        console.log(json);
     })
+}
+
+//function to show current date with name + fill dictionaries
+function set(json) {
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+    var yyyy = today.getFullYear();
+
+    today = dd + '/' + mm + '/' + yyyy;
+    var q = mm + dd;
+
+    //first dict
+    json.forEach(function(x) {
+        dict1[x.den] = x.SK;
+    });
+
+    //sec dict where we check if one day includes more than one name, if so we split it and make dict entries for every single one
+    json.forEach(function(x) {
+        if ((x.SK).includes(', ')) {
+            var names = (x.SK).split(', ');
+            names.forEach(function(q) {
+                dict2[q] = x.den;
+            })
+        } else {
+            dict2[x.SK] = x.den;
+        }
+    });
+
+    //find name for current date 'q'
+    var name = dict1[q];
+    document.getElementById("actual").innerText = today + "  " + name;
 }
 
 //main fn to get name or date
@@ -82,7 +90,10 @@ function namesdayFunction() {
                     checker = true;
                     document.getElementById("output").innerHTML = dict2[key].substring(2, 4) + "." + dict2[key].substring(0, 2);
                     //change checker to true so we know we found it
+
                 }
+
+
             });
             //checker is false so we didnt find that input in our dict2 so we presume input name was not correct
             if (!checker) throw 'Error3';
@@ -98,7 +109,9 @@ function namesdayFunction() {
             $('[data-toggle="tooltip"]').tooltip({ title: "Chybne zadané meno" });
             $('[data-toggle="tooltip"]').tooltip('show');
         }
+
     }
+
 }
 
 //fn to get rid of Upper-cases and no standard characters such as á,š etc...
