@@ -25,24 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="upravenie bia">
-      <change afterPath="$PROJECT_DIR$/css/fotkyfilip/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fotkyfilip/ob1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fotkyfilip/ob2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fotkyfilip/ob3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fotkyfilip/ob4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fotkyfilip/ob5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fotkyfilip/ob6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fotkyfilip/ob7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fotkyfilip/ob8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fotkyfilip/ob9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_4_2021_12_17_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_4_2021_12_17_AM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_4_2021_12_18_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_4_2021_12_18_AM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_4_2021_3_11_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_4_2021_3_11_AM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/hrafilip.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/hrafilip.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrafilip.html" beforeDir="false" afterPath="$PROJECT_DIR$/hrafilip.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/games/hrafilip.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/games/hrafilip.js" afterDir="false" />
+    <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="edit 2">
+      <change afterPath="$PROJECT_DIR$/css/pexrso.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +175,28 @@
       <option name="project" value="LOCAL" />
       <updated>1609769969381</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="celkove nahranie kus dufam ye finale pani">
+      <created>1609802906385</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609802906385</updated>
+    </task>
+    <task id="LOCAL-00009" summary="edit">
+      <created>1609803040778</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609803040778</updated>
+    </task>
+    <task id="LOCAL-00010" summary="edit 2">
+      <created>1609803076034</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609803076035</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +223,10 @@
     <MESSAGE value="Vytvorenie menu.js a menu.css" />
     <MESSAGE value="nahratie vedecke ucely" />
     <MESSAGE value="upravenie bia" />
-    <option name="LAST_COMMIT_MESSAGE" value="upravenie bia" />
+    <MESSAGE value="celkove nahranie kus dufam ye finale pani" />
+    <MESSAGE value="edit" />
+    <MESSAGE value="edit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Deployment" timestamp="1609508422952">
@@ -229,11 +237,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609520509807" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609769974505">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609803081842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609508282328" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609769974505" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609803081842" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609799921308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
