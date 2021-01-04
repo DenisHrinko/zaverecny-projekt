@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+}
+
+#time_game{
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 0;
+    font-size: 30px;
+}
+#win_game{
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 0;
+    font-size: 30px;
+}
+
+#reset_game{
+    display: none;
+    position: absolute;
+    top: 500px;
+    left: 0;
+    font-size: 30px;
+}
+
+.mapa{
+    opacity: .4;
+    position: absolute;
+}
+
+#finsko{
+    transform: translate(-2% , 10.7%);
+    right: 0;
+    z-index: 2;
+}
+
+#svedsko{
+    right: 0;
+    transform: translate(-78% , 19.4%);
+    z-index: 3;
+}
+
+#norsko{
+    right: 0%;
+    transform: translate(-26%, 1%);
+    z-index: 1;
+}
+
+#dansko{
+    right: 0;
+    transform: translate(-285%, 485%);
+    z-index: 0;
+}
+
+#island{
+    right: 0;
+    transform: translate(-400%, 50%);
+}
+
+#uk{
+    right: 0;
+    transform: translate(-280%, 100%);
+    z-index: 1;
+}
+
+#irsko{
+    right: 0;
+    transform: translate(-693%, 438%);
+    z-index: 2;
+}
+
+
+.mapa2{
+    position: relative;
+    top: 0;
+    transform: translate(0%, 30%);
+    display: inline-block;
+    width: calc(10px + 100px);
+}
+
+section{
+    border: 3px solid black;
+    width: fit-content;
+}

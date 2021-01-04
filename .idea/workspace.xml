@@ -6,23 +6,65 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:filip" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/kristian" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="nahratie vedecke ucely">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_1_1_2021_2_26_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_1_1_2021_2_26_PM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_2_2021_3_58_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_2_2021_3_58_PM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_3_2021_2_28_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_3_2021_2_28_PM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/hragossky.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/img/game1/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/img/game1/dansko.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/img/game1/finsko.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/img/game1/irsko.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/img/game1/island.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/img/game1/norsko.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/img/game1/svedsko.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/img/game1/uk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/img/hobo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_4_2021_12_17_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_4_2021_12_17_AM__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_4_2021_12_18_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_4_2021_12_18_AM__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_4_2021_3_11_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_4_2021_3_11_AM__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KristianHra.html" beforeDir="false" afterPath="$PROJECT_DIR$/KristianHra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/hrafilip.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/img/2/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/img/game2/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/img/2/bielorusko.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/img/game2/bielorusko.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/img/2/estonsko.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/img/game2/estonsko.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/img/2/litva.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/img/game2/litva.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/img/2/lotyssko.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/img/game2/lotyssko.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/img/2/moldavia.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/img/game2/moldavia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/img/2/rusko.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/img/game2/rusko.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/img/2/ukraine.png" beforeDir="false" afterPath="$PROJECT_DIR$/css/img/game2/ukraine.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/informacie.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/informacie.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/namesDay.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/namesDay.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hragossky.html" beforeDir="false" afterPath="$PROJECT_DIR$/hragossky.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/informacie.html" beforeDir="false" afterPath="$PROJECT_DIR$/informacie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.esm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/games/hrafilip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/games/hragossky.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/games/hragossky.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/namesday.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/namesday.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/namesday.html" beforeDir="false" afterPath="$PROJECT_DIR$/namesday.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +77,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -71,7 +113,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Sp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css/img/game1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -84,13 +126,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hodky\OneDrive\Počítač\git\zaverecny-projekt" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\Desktop\Git\zaverecny-projekt\css\img\game1" />
+      <recent name="C:\Users\Asus\Desktop\Git\zaverecny-projekt\js\games" />
       <recent name="C:\Users\Hrinko\Desktop\Zadanie7" />
       <recent name="C:\Users\Hrinko\Desktop\Zadanie7\img" />
       <recent name="C:\Users\Hrinko\Desktop\Zadanie7\sdsad" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\Desktop\Git\zaverecny-projekt\css\img\game1" />
+      <recent name="C:\Users\hodky\OneDrive\Počítač\git\zaverecny-projekt" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -180,7 +225,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/kristian" />
                       </list>
                     </value>
                   </entry>
@@ -212,10 +257,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609520509807" />
+    <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609793175880">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/247.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1609793175880" />
+    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1609783941624">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="454" key="FileChooserDialogImpl/247.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1609783941624" />
+    <state x="248" y="121" key="MergeDialog" timestamp="1609799728351">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="248" y="121" key="MergeDialog/247.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1609799728351" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609508282328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609508282328" />
+    <state x="1097" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609799858585">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1097" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/247.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1609799858585" />
+    <state x="0" y="412" key="git4idea.branch.GitSmartOperationDialog" timestamp="1609799710449">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="0" y="412" key="git4idea.branch.GitSmartOperationDialog/247.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1609799710449" />
     <state x="830" y="411" key="publish.login" timestamp="1609769506487">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -5,13 +5,11 @@
     left: 50%;
     transform: translateX(-50%);
     top: 15%;
-    width: 85%;
     min-width: 450px;
-    background-image: url("img/backgroundDomovskaObrazovka.jpg");
+    background-color: #323C50;
     background-size: 100%;
     border: solid 1px black;
     bottom: 15%;
-    border-radius: 25px;
     padding-top: 20px;
     font-family: 'Arapey', serif;
 }
@@ -26,12 +24,16 @@
     background-color: silver;
     height: 40px;
     border-radius: 15px;
-    color: black;
+    color: #FB667A;
     font-weight: bolder;
     margin-left: 20px;
     margin-right: 20px;
     padding: 6px;
     text-align: center;
+}
+
+#search {
+    color: #FB667A;
 }
 
 

@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <script src="https://unpkg.com/konva@7.2.2/konva.min.js"></script>
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Severna europa</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/hragossky.css">
 </head>
-<body>
-<div id="container"></div>
-<script src="js/games/hragossky.js"></script>
 
+<body>
+
+<header>
+    <nav id="menu"></nav>
+</header>
+<img src="css/img/game1/dansko.png" alt="mapa" class="mapa" data-draggable-id="dansko2" id="dansko">
+<img src="css/img/game1/finsko.png" alt="mapa" class="mapa" data-draggable-id="finsko2" id="finsko">
+<img src="css/img/game1/irsko.png" alt="mapa" class="mapa" data-draggable-id="irsko2" id="irsko">
+<img src="css/img/game1/island.png" alt="mapa" class="mapa" data-draggable-id="island2" id="island">
+<img src="css/img/game1/norsko.png" alt="mapa" class="mapa" data-draggable-id="norsko2" id="norsko">
+<img src="css/img/game1/svedsko.png" alt="mapa" class="mapa" data-draggable-id="svedsko2"  id="svedsko">
+<img src="css/img/game1/uk.png" alt="mapa" class="mapa" data-draggable-id="uk2" id="uk">
+
+<section>
+    <img src="css/img/game1/dansko.png" alt="mapa" class="mapa2" id="dansko2" draggable="true">
+    <img src="css/img/game1/finsko.png" alt="mapa" class="mapa2" id="finsko2" draggable="true">
+    <img src="css/img/game1/irsko.png" alt="mapa" class="mapa2" id="irsko2" draggable="true">
+    <img src="css/img/game1/island.png" alt="mapa" class="mapa2" id="island2" draggable="true">
+    <img src="css/img/game1/norsko.png" alt="mapa" class="mapa2" id="norsko2" draggable="true">
+    <img src="css/img/game1/svedsko.png" alt="mapa" class="mapa2" id="svedsko2" height="200" width="10" draggable="true">
+    <img src="css/img/game1/uk.png" alt="mapa" class="mapa2" id="uk2" draggable="true">
+</section>
+
+<p id="time_game"></p>
+<p id="win_game"></p>
+<button id="reset_game">Hraj znovu</button>
+
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script src="js/games/hragossky.js"></script>
+<script src="js/menu.js"></script>
 </body>
+
 </html>

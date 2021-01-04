@@ -2755,7 +2755,7 @@
         return EventHandler.off(htmlElement, EVENT_KEY$5);
       });
       /**
-       * `document` has 2 events `EVENT_FOCUSIN` and `EVENT_CLICK_DATA_API`
+       * `document` has game2 events `EVENT_FOCUSIN` and `EVENT_CLICK_DATA_API`
        * Do not move `document` in `htmlElements` array
        * It will remove `EVENT_CLICK_DATA_API` event that should remain
        */
