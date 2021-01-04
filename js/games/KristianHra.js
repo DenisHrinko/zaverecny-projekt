@@ -2,6 +2,22 @@ const draggableElements = document.querySelectorAll(".mapa2");
 const droppableElements = document.querySelectorAll(".mapa");
 let i;
 let string;
+let counter = 0;
+
+let cas = 0
+
+$(document).ready(function() {
+    time();
+});
+
+function time(){
+    setTimeout(function(){
+        document.getElementById('time_game').innerHTML = 'Čas: ' + cas + ' sec';
+        cas = cas + 1;
+        time();
+    }, 1000);
+}
+
 
 draggableElements.forEach(elem =>{
     elem.addEventListener("dragstart", dragStart);
@@ -36,6 +52,24 @@ function drop(event){
 
         document.getElementById(string).style.opacity = '1';
         document.getElementById(draggableElementData).style.opacity = '0';
-
+        counter = counter + 1;
+        if(counter === 7){
+            document.getElementById('overlay').style.display = 'none';
+            document.getElementById('win').innerHTML = 'Tvoj čas: ' + cas + 'sec';
+            document.getElementById('win').style.display = 'block';
+        }
     }
 }
+
+$('.resetBtn').click(function(){
+    counter = 0;
+    draggableElements.forEach(elem =>{
+        elem.style.opacity = '1';
+    });
+    droppableElements.forEach(elem =>{
+        elem.style.opacity = '.4'
+    });
+    document.getElementById('overlay').style.display = 'block';
+    document.getElementById('win').style.display = 'none';
+    cas = 0;
+});
