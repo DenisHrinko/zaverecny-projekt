@@ -1,0 +1,41 @@
+Index: js/namesday.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>//dictionary formated key[day] - value[names]\r\nvar dict1 = {};\r\n\r\n//dictionary formated key[name] - value[day], each key consist from one name, so if one day have multiple ones, they appear as independent keys\r\nvar dict2 = {};\r\nlet i;\r\n//basic tooltip setup\r\n$('[data-toggle=\"tooltip\"]').tooltip();\r\n\r\n//onload function just to get data from json\r\n\r\nwindow.onload = (event) =>  {\r\n    $.getJSON(\"namesday.json\", function(json) {\r\n        var today = new Date();\r\n        var dd = String(today.getDate()).padStart(2, '0');\r\n        var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!\r\n        var yyyy = today.getFullYear();\r\n\r\n        today = dd + '/' + mm + '/' + yyyy;\r\n        var q = mm + dd;\r\n\r\n        //first dict\r\n        for(i=0;i<json.length;i++){\r\n            dict1[den] = SK;\r\n        }\r\n        //sec dict where we check if one day includes more than one name, if so we split it and make dict entries for every single one\r\n        for(i=0;i<json.length;i++) {\r\n            if ((SK).includes(', ')) {\r\n                var names = (SK).split(', ');\r\n                names.forEach(function(q) {\r\n                    dict2[q] = den;\r\n                })\r\n            } else {\r\n                dict2[SK] = den;\r\n            }\r\n        }\r\n        //find name for current date 'q'\r\n        var name = dict1[q];\r\n        document.getElementById(\"actual\").innerText = today + \"  \" + name;\r\n    })\r\n}\r\n\r\n//main fn to get name or date\r\nfunction namesdayFunction() {\r\n    var checker = false;\r\n    document.getElementById(\"output\").innerHTML = \"\";\r\n    var input = document.getElementById(\"input\").value;\r\n\r\n    try {\r\n        //if input contains number, we presume that we are going to translate date to name\r\n        if (hasNumber(input)) {\r\n            var date = input.split(\".\");\r\n            //TO DO\r\n            //checker for correct date input DD.MM, if input is correct, date.length have to be 2, othervise it means that they used wrong separator or no one\r\n            if (date.length != 2) {\r\n                throw 'Error1';\r\n            }\r\n            //filling day and month numbers if it consist from one digit with zerro (form 3.12 --> 03.12)\r\n            if (date[0].length == 1) {\r\n                date[0] = \"0\" + date[0];\r\n            }\r\n            if (date[1].length == 1) {\r\n                date[1] = \"0\" + date[1];\r\n            }\r\n            //q is our final date DDMM\r\n            var q = date[1] + date[0];\r\n            //date ist not included in dict --> it is not real one\r\n            if (dict1[q] == undefined) {\r\n                throw 'Error2';\r\n            }\r\n            //if we got here it means we have correct answer so just put it into output\r\n            document.getElementById(\"output\").innerHTML = dict1[q];\r\n        }\r\n        //input doenst contain number so we presume that we are going to translate name to date\r\n        else {\r\n            input = normalizeString(input);\r\n            //simple for each loop to compare input with our dict2\r\n            Object.keys(dict2).forEach(function(key) {\r\n                var name = normalizeString(key);\r\n                //found it\r\n                if (name === input) {\r\n                    checker = true;\r\n                    document.getElementById(\"output\").innerHTML = dict2[key].substring(2, 4) + \".\" + dict2[key].substring(0, 2);\r\n                    //change checker to true so we know we found it\r\n                }\r\n            });\r\n            //checker is false so we didnt find that input in our dict2 so we presume input name was not correct\r\n            if (!checker) throw 'Error3';\r\n        }\r\n    } catch (e) {\r\n        if (e == 'Error1') {\r\n            $('[data-toggle=\"tooltip\"]').tooltip({ title: \"Chybne zadaný formát dátumu DD.MM\" });\r\n            $('[data-toggle=\"tooltip\"]').tooltip('show');\r\n        } else if (e == 'Error2') {\r\n            $('[data-toggle=\"tooltip\"]').tooltip({ title: \"Zadany dátum je chybný, máte správne poradie DD.MM?\" });\r\n            $('[data-toggle=\"tooltip\"]').tooltip('show');\r\n        } else if (e == 'Error3') {\r\n            $('[data-toggle=\"tooltip\"]').tooltip({ title: \"Chybne zadané meno\" });\r\n            $('[data-toggle=\"tooltip\"]').tooltip('show');\r\n        }\r\n    }\r\n}\r\n\r\n//fn to get rid of Upper-cases and no standard characters such as á,š etc...\r\nfunction normalizeString(string) {\r\n    var input = string.normalize('NFD').replace(/[\\u0300-\\u036f]/g, \"\");\r\n    input = input.toLowerCase();\r\n    return input;\r\n}\r\n\r\n//no need to comment\r\nfunction hasNumber(myString) {\r\n    return /\\d/.test(myString);\r\n}\r\n\r\n//auto hide tooltip after 2500ms\r\n$(function() {\r\n    $(document).on('shown.bs.tooltip', function(e) {\r\n        setTimeout(function() {\r\n            $(e.target).tooltip('dispose');\r\n        }, 2500);\r\n    });\r\n});
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/js/namesday.js b/js/namesday.js
+--- a/js/namesday.js	(revision a398a4faf50456c4369cda4e27f4ad31cc534e78)
++++ b/js/namesday.js	(date 1609721910055)
+@@ -10,7 +10,7 @@
+ //onload function just to get data from json
+ 
+ window.onload = (event) =>  {
+-    $.getJSON("namesday.json", function(json) {
++    $.getJSON("./namesday.json", function(json) {
+         var today = new Date();
+         var dd = String(today.getDate()).padStart(2, '0');
+         var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+@@ -21,17 +21,17 @@
+ 
+         //first dict
+         for(i=0;i<json.length;i++){
+-            dict1[den] = SK;
++            dict1[json.meniny.zaznam.den] = json.meniny.zaznam.SK;
+         }
+         //sec dict where we check if one day includes more than one name, if so we split it and make dict entries for every single one
+         for(i=0;i<json.length;i++) {
+-            if ((SK).includes(', ')) {
+-                var names = (SK).split(', ');
++            if ((json.meniny.zaznam.SK).includes(', ')) {
++                var names = (json.meniny.zaznam.SK).split(', ');
+                 names.forEach(function(q) {
+                     dict2[q] = den;
+                 })
+             } else {
+-                dict2[SK] = den;
++                dict2[json.meniny.zaznam.SK] = den;
+             }
+         }
+         //find name for current date 'q'
