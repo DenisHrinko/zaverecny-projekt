@@ -1,0 +1,56 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"BRANCH:master\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </select>\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"2c14619b-2fb5-4b4e-8517-8a95cff30040\" name=\"Default Changelist\" comment=\"novy commit\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"CSS File\" />\r\n        <option value=\"JavaScript File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitToolBoxStore\">\r\n    <option name=\"projectConfigVersion\" value=\"2\" />\r\n    <option name=\"recentBranches\">\r\n      <RecentBranches>\r\n        <option name=\"branchesForRepo\">\r\n          <list>\r\n            <RecentBranchesForRepo>\r\n              <option name=\"branches\">\r\n                <list>\r\n                  <RecentBranch>\r\n                    <option name=\"branchName\" value=\"denis\" />\r\n                    <option name=\"lastUsedInstant\" value=\"1609168358\" />\r\n                  </RecentBranch>\r\n                  <RecentBranch>\r\n                    <option name=\"branchName\" value=\"main\" />\r\n                    <option name=\"lastUsedInstant\" value=\"1609168357\" />\r\n                  </RecentBranch>\r\n                </list>\r\n              </option>\r\n              <option name=\"repositoryRootUrl\" value=\"file://$PROJECT_DIR$\" />\r\n            </RecentBranchesForRepo>\r\n          </list>\r\n        </option>\r\n      </RecentBranches>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1jjrqSgud7f8PSHXnRIBaLUUHmS\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"terminal\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Hrinko\\Desktop\\Zadanie7\" />\r\n      <recent name=\"C:\\Users\\Hrinko\\Desktop\\Zadanie7\\img\" />\r\n      <recent name=\"C:\\Users\\Hrinko\\Desktop\\Zadanie7\\sdsad\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"2c14619b-2fb5-4b4e-8517-8a95cff30040\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1604328533098</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1604328533098</updated>\r\n      <workItem from=\"1604328544268\" duration=\"16647000\" />\r\n      <workItem from=\"1604425738977\" duration=\"81000\" />\r\n      <workItem from=\"1604425835577\" duration=\"689000\" />\r\n      <workItem from=\"1604503762790\" duration=\"7144000\" />\r\n      <workItem from=\"1605027320304\" duration=\"32000\" />\r\n      <workItem from=\"1605888892650\" duration=\"25000\" />\r\n      <workItem from=\"1605888936801\" duration=\"4869000\" />\r\n      <workItem from=\"1605894435443\" duration=\"4591000\" />\r\n      <workItem from=\"1605899754481\" duration=\"231000\" />\r\n      <workItem from=\"1605900005649\" duration=\"6831000\" />\r\n      <workItem from=\"1606782982492\" duration=\"7144000\" />\r\n      <workItem from=\"1606845124513\" duration=\"703000\" />\r\n      <workItem from=\"1606930602470\" duration=\"44000\" />\r\n      <workItem from=\"1606938072394\" duration=\"19000\" />\r\n      <workItem from=\"1606938172584\" duration=\"10973000\" />\r\n      <workItem from=\"1607458721119\" duration=\"3881000\" />\r\n      <workItem from=\"1607464412349\" duration=\"665000\" />\r\n      <workItem from=\"1607524079650\" duration=\"41000\" />\r\n      <workItem from=\"1609168071830\" duration=\"336000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Vytvorenie projektu\">\r\n      <created>1607460269868</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1607460269868</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Nacitanie bootstrap kniznice\">\r\n      <created>1607464649129</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1607464649129</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"novy commit\">\r\n      <created>1609168134707</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609168134708</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Vytvorenie projektu\" />\r\n    <MESSAGE value=\"Nacitanie bootstrap kniznice\" />\r\n    <MESSAGE value=\"novy commit\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"novy commit\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision f92fc18367e1bc11c35dc9a0a070b2a73ed0d2fc)
++++ b/.idea/workspace.xml	(date 1609197556202)
+@@ -16,7 +16,9 @@
+     </select>
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="novy commit" />
++    <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="denisova vetva">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -109,7 +111,7 @@
+       <workItem from="1607458721119" duration="3881000" />
+       <workItem from="1607464412349" duration="665000" />
+       <workItem from="1607524079650" duration="41000" />
+-      <workItem from="1609168071830" duration="336000" />
++      <workItem from="1609168071830" duration="2973000" />
+     </task>
+     <task id="LOCAL-00001" summary="Vytvorenie projektu">
+       <created>1607460269868</created>
+@@ -132,7 +134,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1609168134708</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="denisova vetva">
++      <created>1609168430775</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1609168430775</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -166,6 +175,7 @@
+     <MESSAGE value="Vytvorenie projektu" />
+     <MESSAGE value="Nacitanie bootstrap kniznice" />
+     <MESSAGE value="novy commit" />
+-    <option name="LAST_COMMIT_MESSAGE" value="novy commit" />
++    <MESSAGE value="denisova vetva" />
++    <option name="LAST_COMMIT_MESSAGE" value="denisova vetva" />
+   </component>
+ </project>
+\ No newline at end of file
