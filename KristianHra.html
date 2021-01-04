@@ -5,10 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/KristianHra.css">
 </head>
 
 <body>
+
+<header>
+    <nav id="menu">
+    </nav>
+</header>
+
+<h6 id="win"></h6>
+<button class="resetBtn" id="resetBtn">Reset</button>
+<div id="overlay">
+
+<p id="time_game"></p>
 
 <img src="css/img/2/bielorusko.png" alt="mapa" class="mapa" data-draggable-id="bielorusko2" id="bielorusko">
 <img src="css/img/2/estonsko.png" alt="mapa" class="mapa" data-draggable-id="estonsko2" id="estonsko">
@@ -18,17 +30,18 @@
 <img src="css/img/2/rusko.png" alt="mapa" class="mapa" data-draggable-id="rusko2" id="rusko">
 <img src="css/img/2/ukraine.png" alt="mapa" class="mapa" data-draggable-id="ukraine2" id="ukraine">
 
+<img src="css/img/2/bielorusko.png" alt="mapa" class="mapa2" id="bielorusko2" draggable="true">
+<img src="css/img/2/estonsko.png" alt="mapa" class="mapa2" id="estonsko2" draggable="true">
+<img src="css/img/2/litva.png" alt="mapa" class="mapa2" id="litva2" draggable="true">
+<img src="css/img/2/lotyssko.png" alt="mapa" class="mapa2" id="lotyssko2" draggable="true">
+<img src="css/img/2/moldavia.png" alt="mapa" class="mapa2" id="moldavia2" draggable="true">
+<img src="css/img/2/rusko.png" alt="mapa" class="mapa2" id="rusko2" draggable="true">
+<img src="css/img/2/ukraine.png" alt="mapa" class="mapa2" id="ukraine2" draggable="true">
 
-<section>
-    <img src="css/img/2/bielorusko.png" alt="mapa" class="mapa2" id="bielorusko2" draggable="true">
-    <img src="css/img/2/estonsko.png" alt="mapa" class="mapa2" id="estonsko2" draggable="true">
-    <img src="css/img/2/litva.png" alt="mapa" class="mapa2" id="litva2" draggable="true">
-    <img src="css/img/2/lotyssko.png" alt="mapa" class="mapa2" id="lotyssko2" draggable="true">
-    <img src="css/img/2/moldavia.png" alt="mapa" class="mapa2" id="moldavia2" draggable="true">
-    <img src="css/img/2/rusko.png" alt="mapa" class="mapa2" id="rusko2" draggable="true">
-    <img src="css/img/2/ukraine.png" alt="mapa" class="mapa2" id="ukraine2" draggable="true">
-</section>
+</div>
 
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script src="js/menu.js"></script>
 <script src="js/games/KristianHra.js"></script>
 </body>
 
