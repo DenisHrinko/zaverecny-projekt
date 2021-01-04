@@ -1,3 +1,5 @@
+@import url('http://fonts.googleapis.com/css?family=Arapey');
+
 body{
     margin: 0;
     color: white;
@@ -6,6 +8,7 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: 'Arapey';
 }
 
 h1{

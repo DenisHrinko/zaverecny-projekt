@@ -1,3 +1,5 @@
+@import url('http://fonts.googleapis.com/css?family=Arapey');
+
 nav{
     position: absolute;
     right: 0;
@@ -12,6 +14,7 @@ nav{
 }
 
 ul{
+    font-family: 'Arapey';
     margin: 0;
     padding: 0;
     list-style: none;

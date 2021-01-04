@@ -42,10 +42,6 @@ function set(json) {
             dict2[x.SK] = x.den;
         }
     });
-
-    //find name for current date 'q'
-    var name = dict1[q];
-    document.getElementById("actual").innerText = today + "  " + name;
 }
 
 //main fn to get name or date
@@ -83,6 +79,7 @@ function namesdayFunction() {
         else {
             input = normalizeString(input);
             //simple for each loop to compare input with our dict2
+            //TO DO
             Object.keys(dict2).forEach(function(key) {
                 var name = normalizeString(key);
                 //found it
@@ -93,7 +90,7 @@ function namesdayFunction() {
 
                 }
 
-
+            ////////
             });
             //checker is false so we didnt find that input in our dict2 so we presume input name was not correct
             if (!checker) throw 'Error3';
@@ -122,8 +119,8 @@ function normalizeString(string) {
 }
 
 //no need to comment
-function hasNumber(myString) {
-    return /\d/.test(myString);
+function hasNumber(input) {
+    return /\d/.test(input);
 }
 
 //auto hide tooltip after 2500ms

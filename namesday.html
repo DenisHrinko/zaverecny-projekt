@@ -8,7 +8,6 @@
     <script src="https://unpkg.com/konva@4.0.18/konva.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
@@ -25,28 +24,36 @@
 
 <div class="container">
     <div class="row justify-content-md-center">
-        <div class="col-sm-">
+        <div class="col-md-8 col-xs-12 " id="actualBackground">
             <div id="actual"></div>
+
         </div>
 
     </div>
     <div class="row justify-content-md-center" id="inputRow">
-        <div class="col-md-auto textInput">
+        <div class="col-md-1"></div>
+        <div class="col-md-5 col-xs-12 textInput">
             <input type="text" class="form-control " id="input" data-toggle="tooltip" data-trigger="manual" data-placement="bottom">
         </div>
-        <div class="col-md-auto ">
+        <div class="col-md-5 col-xs-12 ">
             <button type="button" class="form-control button" onclick="namesdayFunction() ">Hľadaj</button>
         </div>
-        <div class="col-md-auto">
+        <div class="col-md-1"></div>
+    </div>
+    <div class="row justify-content-md-center">
+        <div class="col-md-8 col-xs-12" id="outputBackground">
             <p id="output"></p>
         </div>
+    </div>
+    <div class="row justify-content-md-center">
+        <!--MOZNO NIECO PRIDAT-->
     </div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<!--<script src="js/namesday.js"></script> !-->
+<script src="js/namesday.js"></script>
 <script src="js/namesdayToday.js"></script>
 </body>
 
