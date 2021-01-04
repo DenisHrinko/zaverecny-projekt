@@ -21,6 +21,8 @@ $('#search').click(function(){
     var input = document.getElementById("input").value;
     var output = document.getElementById("output");
 
+
+
     input = input.split(".");
 
     if(input.length > 1)
@@ -40,23 +42,48 @@ $('#search').click(function(){
             }
         })
     }else{
+        input = normalizeInput(input)
+        input = input.split(' ')
+
         $.getJSON("./namesday.json", function(json){
             for(i=0; i<json.meniny.zaznam.length;i++) {
                if(json.meniny.zaznam[i].SK !== undefined) {
                    let splitJson = json.meniny.zaznam[i].SK.split(', ')
+
+                   //splitJson = normalizeString(splitJson)
+                   //splitJson = splitJson.split(' ')
+
                    if(splitJson.length>1){
                        for(j=0; j<splitJson.length;j++)
                        {
-                           if(splitJson[j].toLowerCase() === input[0].toLowerCase()){
+
+                           let splitJson2 = normalizeString(splitJson[j])
+                           splitJson2 = splitJson2.split(' ')
+
+                           if(splitJson2[0].toLowerCase() === input[0].toLowerCase()){
                                output.innerHTML = json.meniny.zaznam[i].den[2] + json.meniny.zaznam[i].den[3] + '.' + json.meniny.zaznam[i].den[0] + json.meniny.zaznam[i].den[1];
                            }
                        }
-                   }
-                   if (input[0].toLowerCase() === json.meniny.zaznam[i].SK.toLowerCase()) {
-                       output.innerHTML = json.meniny.zaznam[i].den[2] + json.meniny.zaznam[i].den[3] + '.' + json.meniny.zaznam[i].den[0] + json.meniny.zaznam[i].den[1];
+                   }else {
+                       let splitJson2 = normalizeString(splitJson[0])
+                       splitJson2 = splitJson2.split(' ')
+                       if (input[0].toLowerCase() === splitJson2[0].toLowerCase()) {
+                           output.innerHTML = json.meniny.zaznam[i].den[2] + json.meniny.zaznam[i].den[3] + '.' + json.meniny.zaznam[i].den[0] + json.meniny.zaznam[i].den[1];
+                       }
                    }
                }
             }
         })
     }
 })
+
+//fn to get rid of Upper-cases and no standard characters such as á,š etc...
+function normalizeString(string) {
+    var splitJson = string.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+    return splitJson;
+}
+
+function normalizeInput(string) {
+    var input = string[0].normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+    return input;
+}
