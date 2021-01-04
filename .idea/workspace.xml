@@ -21,14 +21,12 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/kristian" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
 <<<<<<<<< Temporary merge branch 1
-    <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="novy commit" />
-=========
+<<<<<<<<< Temporary merge branch 1
     <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="Gosskyho branch mfs">
       <change afterPath="$PROJECT_DIR$/css/img/calendar.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_2_2021_3_58_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_2_2021_3_58_PM__Default_Changelist_.xml" afterDir="false" />
@@ -36,8 +34,20 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/namesDay.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/namesDay.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/namesday.html" beforeDir="false" afterPath="$PROJECT_DIR$/namesday.html" afterDir="false" />
-    </list>
+=========
+    <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="Uprava infromácií Kristián Špak">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/namesday.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/namesday.js" afterDir="false" />
 >>>>>>>>> Temporary merge branch 2
+=========
+    <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="update vzhladu">
+      <change afterPath="$PROJECT_DIR$/css/img/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/img/backgroundDomovskaObrazovku.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/namesday.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/namesday.js" afterDir="false" />
+>>>>>>>>> Temporary merge branch 2
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,31 +73,16 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
-    <option name="recentBranches">
-      <RecentBranches>
-        <option name="branchesForRepo">
-          <list>
-            <RecentBranchesForRepo>
-              <option name="branches">
-                <list>
-                  <RecentBranch>
-                    <option name="branchName" value="denis" />
-                    <option name="lastUsedInstant" value="1609168358" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1609168357" />
-                  </RecentBranch>
-                </list>
-              </option>
-              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
-            </RecentBranchesForRepo>
-          </list>
-        </option>
-      </RecentBranches>
-    </option>
   </component>
   <component name="ProjectId" id="1jjrqSgud7f8PSHXnRIBaLUUHmS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -103,11 +98,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-<<<<<<<<< Temporary merge branch 1
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-=========
     <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects/zadanie6" />
->>>>>>>>> Temporary merge branch 2
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -154,11 +145,7 @@
       <workItem from="1607458721119" duration="3881000" />
       <workItem from="1607464412349" duration="665000" />
       <workItem from="1607524079650" duration="41000" />
-<<<<<<<<< Temporary merge branch 1
-      <workItem from="1609168071830" duration="336000" />
-=========
       <workItem from="1609171612239" duration="16705000" />
->>>>>>>>> Temporary merge branch 2
     </task>
     <task id="LOCAL-00001" summary="Vytvorenie projektu">
       <created>1607460269868</created>
@@ -174,16 +161,6 @@
       <option name="project" value="LOCAL" />
       <updated>1607464649129</updated>
     </task>
-<<<<<<<<< Temporary merge branch 1
-    <task id="LOCAL-00003" summary="novy commit">
-      <created>1609168134707</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1609168134708</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
-=========
     <task id="LOCAL-00003" summary="Vytvorenie Kristianovej vetvy">
       <created>1609171792733</created>
       <option name="number" value="00003" />
@@ -212,7 +189,70 @@
       <option name="project" value="LOCAL" />
       <updated>1609676968648</updated>
     </task>
+<<<<<<<<< Temporary merge branch 1
+<<<<<<<<< Temporary merge branch 1
     <option name="localTasksCounter" value="7" />
+=========
+    <task id="LOCAL-00007" summary="Zmena dizajnu">
+      <created>1609681067840</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609681067840</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Zmena dizajnu">
+      <created>1609681184449</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609681184449</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Zmena dizajnu">
+      <created>1609681875897</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609681875897</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Oprave Erroru v namesday.js onload">
+      <created>1609682243896</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609682243896</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Uprava domovskej stranky">
+      <created>1609686138129</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609686138129</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Uprava domovskej stranky">
+      <created>1609687570875</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1609687570875</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Uprava infromácií Kristián Špak">
+      <created>1609689032795</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609689032795</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+>>>>>>>>> Temporary merge branch 2
+=========
+    <task id="LOCAL-00007" summary="update vzhladu">
+      <created>1609721812867</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609721812868</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
 >>>>>>>>> Temporary merge branch 2
     <servers />
   </component>
@@ -247,15 +287,13 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Vytvorenie projektu" />
     <MESSAGE value="Nacitanie bootstrap kniznice" />
-<<<<<<<<< Temporary merge branch 1
-    <MESSAGE value="novy commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="novy commit" />
-=========
     <MESSAGE value="Vytvorenie Kristianovej vetvy" />
     <MESSAGE value="Vytvorenie domovskej stranky a menu" />
     <MESSAGE value="Vytvorenie menu.js a menu.css" />
+<<<<<<<<< Temporary merge branch 1
     <MESSAGE value="Gosskyho branch mfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gosskyho branch mfs" />
+    <MESSAGE value="update vzhladu" />
+    <option name="LAST_COMMIT_MESSAGE" value="update vzhladu" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609683418561">
@@ -278,6 +316,16 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="872" y="432" key="Vcs.Push.Dialog.v2/247.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1609676975724" />
+<<<<<<<<< Temporary merge branch 1
+=========
+    <MESSAGE value="nahratie vedecke ucely" />
+    <MESSAGE value="Zmena dizajnu" />
+    <MESSAGE value="Oprave Erroru v namesday.js onload" />
+    <MESSAGE value="Uprava domovskej stranky" />
+    <MESSAGE value="Uprava infromácií Kristián Špak" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uprava infromácií Kristián Špak" />
+>>>>>>>>> Temporary merge branch 2
+=========
 >>>>>>>>> Temporary merge branch 2
   </component>
 </project>
