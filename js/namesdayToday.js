@@ -44,6 +44,7 @@ $('#search').click(function(){
             for(i=0; i<json.meniny.zaznam.length;i++) {
                if(json.meniny.zaznam[i].SK !== undefined) {
                    let splitJson = json.meniny.zaznam[i].SK.split(', ')
+
                    if(splitJson.length>1){
                        for(j=0; j<splitJson.length;j++)
                        {
@@ -52,7 +53,8 @@ $('#search').click(function(){
                            }
                        }
                    }
-                   if (input[0].toLowerCase() === json.meniny.zaznam[i].SK.toLowerCase()) {
+
+                   if (input[0].toLowerCase() === splitJson[0].toLowerCase()) {
                        output.innerHTML = json.meniny.zaznam[i].den[2] + json.meniny.zaznam[i].den[3] + '.' + json.meniny.zaznam[i].den[0] + json.meniny.zaznam[i].den[1];
                    }
                }
@@ -60,3 +62,10 @@ $('#search').click(function(){
         })
     }
 })
+
+//fn to get rid of Upper-cases and no standard characters such as á,š etc...
+function normalizeString(string) {
+    var splitJson = string[0].normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+   console.log(splitJson);
+    return splitJson;
+}
