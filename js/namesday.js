@@ -55,7 +55,7 @@ function namesdayFunction() {
         if (hasNumber(input)) {
             var date = input.split(".");
             //TO DO
-            //checker for correct date input DD.MM, if input is correct, date.length have to be 2, othervise it means that they used wrong separator or no one
+            //checker for correct date input DD.MM, if input is correct, date.length have to be game2, othervise it means that they used wrong separator or no one
             if (date.length != 2) {
                 throw 'Error1';
             }
