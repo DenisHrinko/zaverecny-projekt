@@ -4,61 +4,53 @@
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/hrafilip.css">
-    <script src="js/games/hrafilip.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+
+
     <title>Title</title>
 </head>
 <body>
-{% import 'components/Block/Block.html' as Block %}
+<nav id="menu">
 
-{% macro render(id) %}
-<section id="{{ id }}" class="{{ id }}">
-    <article class="BlockLayout BlockLayout--typeFlex">
-        <div class="BlockWrapper BlockWrapper--isDropzone draggable-dropzone--occupied" data-dropzone="1">
-            {{ Block.render('one', {type: 'Hollow'}) }}
-            {{ Block.render('one', {index: 1, draggable: true}) }}
-        </div>
-        <div class="BlockWrapper BlockWrapper--isDropzone draggable-dropzone--occupied" data-dropzone="2">
-            {{ Block.render('two', {type: 'Hollow'}) }}
-            {{ Block.render('two', {index: 2, draggable: true}) }}
-        </div>
-        <div class="BlockWrapper BlockWrapper--isDropzone draggable-dropzone--occupied" data-dropzone="4">
-            {{ Block.render('four', {type: 'Hollow'}) }}
-            {{ Block.render('four', {index: 4, draggable: true}) }}
-        </div>
-        <div class="BlockWrapper BlockWrapper--isDropzone draggable-dropzone--occupied" data-dropzone="8">
-            {{ Block.render('eight', {type: 'Hollow'}) }}
-            {{ Block.render('eight', {index: 8, draggable: true}) }}
-        </div>
-    </article>
+</nav>
+<h5 id="win"></h5>
+<button class="tlacidlo" id="tlacidlo">Reset</button>
+<div id="overlay">
+    <p class="case" id="time_game"></p>
 
-    <article class="BlockLayout BlockLayout--typeGrid">
-        <div class="BlockWrapper BlockWrapper--isDropzone" data-dropzone="1">
-            {{ Block.render('', {type: 'Stripes'}) }}
-        </div>
-        <div class="BlockWrapper BlockWrapper--isDropzone" data-dropzone="2">
-            {{ Block.render('', {type: 'Stripes'}) }}
-        </div>
-        <div class="BlockWrapper">
-            {{ Block.render('three', {index: 3, type: 'Shell'}) }}
-        </div>
-        <div class="BlockWrapper BlockWrapper--isDropzone" data-dropzone="4">
-            {{ Block.render('', {type: 'Stripes'}) }}
-        </div>
-        <div class="BlockWrapper">
-            {{ Block.render('five', {index: 5, type: 'Shell'}) }}
-        </div>
-        <div class="BlockWrapper">
-            {{ Block.render('six', {index: 6, type: 'Shell'}) }}
-        </div>
-        <div class="BlockWrapper">
-            {{ Block.render('seven', {index: 7, type: 'Shell'}) }}
-        </div>
-        <div class="BlockWrapper BlockWrapper--isDropzone" data-dropzone="8">
-            {{ Block.render('', {type: 'Stripes'}) }}
-        </div>
-    </article>
+    <img src="css/fotkyfilip/ob1.png" alt ="mapa" class="mapa" data-draggable-id="portugalsko2" id="portugalsko">
+    <img src="css/fotkyfilip/ob2.png" alt ="mapa" class="mapa" data-draggable-id="spanielsko2" id="spanielsko">
+    <img src="css/fotkyfilip/ob3.png" alt ="mapa" class="mapa" data-draggable-id="francie2" id="francie">
+    <img src="css/fotkyfilip/ob4.png" alt ="mapa" class="mapa" data-draggable-id="svajciarsko2" id="svajciarsko">
+    <img src="css/fotkyfilip/ob5.png" alt ="mapa" class="mapa" data-draggable-id="belgicko2" id="belgicko">
+    <img src="css/fotkyfilip/ob6.png" alt ="mapa" class="mapa" data-draggable-id="holandsko2" id="holandsko">
+    <img src="css/fotkyfilip/ob7.png" alt ="mapa" class="mapa" data-draggable-id="nemecko2" id="nemecko">
+    <img src="css/fotkyfilip/ob8.png" alt ="mapa" class="mapa" data-draggable-id="rakusko2" id="rakusko">
+    <img src="css/fotkyfilip/ob9.png" alt ="mapa" class="mapa" data-draggable-id="taliansko2" id="taliansko">
+
+<section>
+    <img src="css/fotkyfilip/ob1.png" alt ="mapa" class="mapa2" id="portugalsko2" draggable="true">
+    <img src="css/fotkyfilip/ob2.png" alt ="mapa" class="mapa2" id="spanielsko2" draggable="true">
+    <img src="css/fotkyfilip/ob3.png" alt ="mapa" class="mapa2" id="francie2" draggable="true">
+    <img src="css/fotkyfilip/ob4.png" alt ="mapa" class="mapa2" id="svajciarsko2" draggable="true">
+    <img src="css/fotkyfilip/ob5.png" alt ="mapa" class="mapa2" id="belgicko2" draggable="true">
+    <img src="css/fotkyfilip/ob6.png" alt ="mapa" class="mapa2" id="holandsko2" draggable="true">
+    <img src="css/fotkyfilip/ob7.png" alt ="mapa" class="mapa2" id="nemecko2" draggable="true">
+    <img src="css/fotkyfilip/ob8.png" alt ="mapa" class="mapa2" id="rakusko2" draggable="true">
+    <img src="css/fotkyfilip/ob9.png" alt ="mapa" class="mapa2" id="taliansko2" draggable="true">
+
 </section>
-{% endmacro %}
+
+</div>
+    <div id="output"></div>
+    <script src="js/games/hrafilip.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="js/menu.js"></script>
+
+
 
 </body>
+
 </html>

@@ -1,100 +1,106 @@
-@import 'utils/shared/functions';
-.UniqueDropzone .BlockLayout .BlockWrapper .Block:nth-child(1n + 3):not(.draggable-source--is-dragging) {
-    min-height: 0;
-    height: 0;
-}
-.UniqueDropzone .BlockLayout--typeFlex .BlockWrapper {
-    flex: 1 1 calc(50% - get-layout-length(gutter));
-}
-@media screen and (min-width: get-breakpoint(mobile, wide)) {
-    .UniqueDropzone .BlockLayout--typeFlex .BlockWrapper {
-        flex-basis: calc(25% - get-layout-length(gutter));
-    }
-}
-.UniqueDropzone .BlockLayout--typeGrid {
-    grid-template-rows: repeat(6, 1fr);
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: 'a a b b' 'a a d d' 'c c d d' 'e e f f' 'e e g g' 'h h h h';
-    margin-top: get-border(thin);
-    border: get-border(thin) solid get-color(coal, dark);
-    background-color: get-color(coal, dark);
-}
-@media screen and (min-width: get-breakpoint(tablet)) {
-    .UniqueDropzone .BlockLayout--typeGrid {
-        grid-template-columns: 1fr 1.025fr 1.025fr 1fr;
-        grid-template-areas: 'a c c g' 'a c c g' 'a d f g' 'b d f g' 'b e f h' 'b e f h';
-        margin-top: get-border();
-        border-width: get-border();
-    }
-}
-.UniqueDropzone .BlockLayout--typeGrid .BlockWrapper--isDropzone::before {
-    content: '';
+.mapa{
+    opacity: .4;
     position: absolute;
-    top: -get-border(thin);
-    right: -get-border(thin);
-    bottom: -get-border(thin);
-    left: -get-border(thin);
-    display: block;
-    pointer-events: none;
-    background-color: blue;
-    opacity: 0;
-    transition: opacity get-duration(fast) get-easing();
 }
-@media screen and (min-width: get-breakpoint(tablet)) {
-    .UniqueDropzone .BlockLayout--typeGrid .BlockWrapper--isDropzone::before {
-        top: -get-border();
-        right: -get-border();
-        bottom: -get-border();
-        left: -get-border();
-    }
+
+#portugalsko{
+
+    right: 0;
+    transform: translate(-648%,311.5%);
+    z-index: 3;
 }
-.UniqueDropzone .BlockLayout--typeGrid .BlockWrapper--isDropzone.draggable-dropzone--occupied:hover::before {
-    opacity: 1;
+
+#spanielsko{
+
+    right: 0;
+    transform: translate(-140%,175%);
+    z-index: 2;
 }
-.UniqueDropzone .BlockLayout--typeGrid .BlockContent {
-    border: 0;
+
+#francie{
+
+    right: 0;
+    transform: translate(-105%,93%);
+    z-index: 3;
 }
-.UniqueDropzone .BlockLayout--typeGrid .BlockWrapper:nth-child(1) {
-    grid-area: a;
+
+#svajciarsko{
+
+    right: 0;
+    transform: translate(-243.5%,659%);
+    z-index: 4;
 }
-.UniqueDropzone .BlockLayout--typeGrid .BlockWrapper:nth-child(2) {
-    grid-area: b;
+
+#belgicko{
+
+    right: 0%;
+    transform: translate(-415%,390%);
+    z-index: 5;
 }
-.UniqueDropzone .BlockLayout--typeGrid .BlockWrapper:nth-child(3) {
-    grid-area: c;
+
+#holandsko{
+
+    right: 0;
+    transform: translate(-460%,250%);
+    z-index: 4;
 }
-.UniqueDropzone .BlockLayout--typeGrid .BlockWrapper:nth-child(4) {
-    grid-area: d;
+
+#nemecko{
+
+    right: 0;
+    transform: translate(-62%,59%);
+    z-index: 2;
 }
-.UniqueDropzone .BlockLayout--typeGrid .BlockWrapper:nth-child(5) {
-    grid-area: e;
+
+#rakusko{
+
+    right: 0;
+    transform: translate(-51%,250%);
+    z-index: 4;
 }
-.UniqueDropzone .BlockLayout--typeGrid .BlockWrapper:nth-child(6) {
-    grid-area: f;
+
+#taliansko{
+    right: 0;
+    transform: translate(-5%,110%);
+    z-index: 1;
 }
-.UniqueDropzone .BlockLayout--typeGrid .BlockWrapper:nth-child(7) {
-    grid-area: g;
+
+.mapa2{
+    display: inline-block;
+    width: calc(10px + 100px);
+
 }
-.UniqueDropzone .BlockLayout--typeGrid .BlockWrapper:nth-child(8) {
-    grid-area: h;
+body{
+    background-color: black;
+    margin: 0;
 }
-@media screen and (min-width: get-breakpoint(tablet)) {
-    .UniqueDropzone .BlockLayout--typeFlex .BlockContent {
-        min-height: rows(3);
-    }
+section{
+    background-color: white;
+
+    border: 3px solid black;
+    margin-top: 100px;
+    width: fit-content;
+
 }
-@media screen and (min-width: get-breakpoint(desktop)) {
-    .UniqueDropzone .BlockLayout--typeFlex .BlockContent {
-        min-height: rows(4);
-    }
+
+.tlacidlo {
+    right: 0;
+
+    transform: translate(300%,3010%);
 }
-@media screen and (min-width: get-breakpoint(tablet)) {
-    .UniqueDropzone .BlockLayout--typeGrid .BlockContent {
-        min-height: rows(3, false, true);
-    }
+
+.case{
+    right: 0;
+
+    top: 60%;
+    position: absolute;
+    background-color: black;
 }
-@media screen and (min-width: get-breakpoint(desktop)) {
-    .UniqueDropzone .BlockLayout--typeGrid .BlockContent {
-        min-height: rows(4, false, true);
-    }
+h5{
+    color: black;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -250%);
 }
