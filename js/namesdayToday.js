@@ -50,7 +50,6 @@ $('#search').click(function(){
     }
 })
 
-
 function normalizeString(input) {
     for(i=0;i<input[0].length;i++)
     {
