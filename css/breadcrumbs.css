@@ -1,0 +1,25 @@
+@import url('http://fonts.googleapis.com/css?family=Arapey');
+
+.tabulka {
+    position: absolute;
+    transform: translateY(-105px) translateX(5px);
+    color: black;
+    font-family: 'Arapey';
+    font-size: 20px;
+}
+
+.meniny {
+    position: absolute;
+    transform: translateY(60px) translateX(12px);
+    color: black;
+    font-family: 'Arapey';
+    font-size: 20px;
+}
+
+.onas {
+    position: absolute;
+    transform: translateY(500px) translateX(12px);
+    color: black;
+    font-family: 'Arapey';
+    font-size: 20px;
+}
