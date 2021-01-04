@@ -66,6 +66,10 @@ body{
     transform: translate(-500%, 30%);
 }
 
+.mapa{
+    opacity: .4;
+}
+
 .resetBtn{
     position: relative;
     bottom: 0;
