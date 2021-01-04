@@ -13,7 +13,11 @@ window.onload = (event) =>  {
                 name = json.meniny.zaznam[i].SK;
             }
         }
-
-        document.getElementById("actual").innerText = today + "  " + name;
+        if(name===undefined) {
+            document.getElementById("actual").innerText = "1.1. maju meniny len psy a macky";
+        }
+        else {
+            document.getElementById("actual").innerText = today + "  " + name;
+        }
     })
 }
