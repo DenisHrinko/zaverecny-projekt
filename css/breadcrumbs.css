@@ -39,3 +39,19 @@
     font-family: 'Arapey';
     font-size: 20px;
 }
+
+.hobohra {
+    position: absolute;
+    transform: translate(6%, 205%);
+    color: black;
+    font-family: 'Arapey';
+    font-size: 20px;
+}
+
+.gosohra {
+    position: absolute;
+    transform: translate(6%, 200%);
+    color: white;
+    font-family: 'Arapey';
+    font-size: 20px;
+}

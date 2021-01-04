@@ -75,7 +75,7 @@ body{
 .mapa2{
     position: relative;
     top: 0;
-    transform: translate(0%, 30%);
+    transform: translate(0%, 70%);
     display: inline-block;
     width: calc(10px + 100px);
 }

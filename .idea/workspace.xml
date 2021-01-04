@@ -25,24 +25,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c14619b-2fb5-4b4e-8517-8a95cff30040" name="Default Changelist" comment="upravenie bia">
-      <change afterPath="$PROJECT_DIR$/css/fotkyfilip/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fotkyfilip/ob1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fotkyfilip/ob2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fotkyfilip/ob3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fotkyfilip/ob4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fotkyfilip/ob5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fotkyfilip/ob6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fotkyfilip/ob7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fotkyfilip/ob8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fotkyfilip/ob9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_4_2021_12_17_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_4_2021_12_17_AM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_4_2021_12_18_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_4_2021_12_18_AM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_4_2021_3_11_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_4_2021_3_11_AM__Default_Changelist_.xml" afterDir="false" />
+    <list default="true" id="14061c60-79d2-4d7a-9561-9bdf9e1d6cd1" name="Default Changelist" comment="vytvorenie hry a pokracovanie breadcrumbs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/hrafilip.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/hrafilip.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/breadcrumbs.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/breadcrumbs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/game_Denis.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/game_Denis.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/hragossky.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/hragossky.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/informacie.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/informacie.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hrafilip.html" beforeDir="false" afterPath="$PROJECT_DIR$/hrafilip.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/games/hrafilip.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/games/hrafilip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hragossky.html" beforeDir="false" afterPath="$PROJECT_DIR$/hragossky.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/table.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,14 +96,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hodky\OneDrive\Počítač\git\zaverecny-projekt" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hodky\OneDrive\Počítač\git\zaverecny-projekt\css\fotkyfilip" />
       <recent name="C:\Users\Hrinko\Desktop\Zadanie7" />
       <recent name="C:\Users\Hrinko\Desktop\Zadanie7\img" />
       <recent name="C:\Users\Hrinko\Desktop\Zadanie7\sdsad" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hodky\OneDrive\Počítač\git\zaverecny-projekt" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -219,33 +211,5 @@
     <MESSAGE value="nahratie vedecke ucely" />
     <MESSAGE value="upravenie bia" />
     <option name="LAST_COMMIT_MESSAGE" value="upravenie bia" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Deployment" timestamp="1609508422952">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="178" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1609508422952" />
-    <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609520509807">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609520509807" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609769974505">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609508282328" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609769974505" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609799921308">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609799921308" />
-    <state x="182" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1609799963183">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="182" y="233" key="git4idea.branch.GitSmartOperationDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609799963183" />
-    <state x="830" y="411" key="publish.login" timestamp="1609769506487">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="830" y="411" key="publish.login/0.0.1920.1040@0.0.1920.1040" timestamp="1609508464048" />
-    <state x="830" y="411" key="publish.login/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609769506487" />
   </component>
 </project>
